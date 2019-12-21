@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo tranquilpeak theme</title>
+    <link>https://example.org/post/</link>
+    <description>Recent content in Posts on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RL伪代码</title>
+      <link>https://example.org/2019/07/rl%E4%BC%AA%E4%BB%A3%E7%A0%81/</link>
+      <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
+      
+      <guid>https://example.org/2019/07/rl%E4%BC%AA%E4%BB%A3%E7%A0%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summary of Notation</title>
+      <link>https://example.org/2019/07/summary-of-notation/</link>
+      <pubDate>Sat, 13 Jul 2019 13:42:42 +0800</pubDate>
+      
+      <guid>https://example.org/2019/07/summary-of-notation/</guid>
+      <description>&lt;p&gt;RL中的符号说明:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Model free RL</title>
+      <link>https://example.org/2019/07/model-free-rl/</link>
+      <pubDate>Sat, 13 Jul 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://example.org/2019/07/model-free-rl/</guid>
+      <description>&lt;p&gt;action-value methods (Q-learning)&lt;br /&gt;
+policy-based methods (Policy gradient)&lt;br /&gt;
+Actor-critic&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Exploration</title>
+      <link>https://example.org/2019/07/exploration/</link>
+      <pubDate>Tue, 02 Jul 2019 15:13:52 +0800</pubDate>
+      
+      <guid>https://example.org/2019/07/exploration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Actor-critic</title>
+      <link>https://example.org/2019/07/actor-critic/</link>
+      <pubDate>Tue, 02 Jul 2019 09:02:23 +0800</pubDate>
+      
+      <guid>https://example.org/2019/07/actor-critic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Q-learning</title>
+      <link>https://example.org/2019/07/q-learning/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:01 +0800</pubDate>
+      
+      <guid>https://example.org/2019/07/q-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy Gradient with Baseline</title>
+      <link>https://example.org/2019/06/policy-gradient-with-baseline/</link>
+      <pubDate>Sun, 30 Jun 2019 18:16:57 +0800</pubDate>
+      
+      <guid>https://example.org/2019/06/policy-gradient-with-baseline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy Gradient公式背后的直观解释</title>
+      <link>https://example.org/2019/06/policy-gradient%E5%85%AC%E5%BC%8F%E8%83%8C%E5%90%8E%E7%9A%84%E7%9B%B4%E8%A7%82%E8%A7%A3%E9%87%8A/</link>
+      <pubDate>Sat, 29 Jun 2019 14:17:10 +0800</pubDate>
+      
+      <guid>https://example.org/2019/06/policy-gradient%E5%85%AC%E5%BC%8F%E8%83%8C%E5%90%8E%E7%9A%84%E7%9B%B4%E8%A7%82%E8%A7%A3%E9%87%8A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to Tranquilpeak 0.4.4-BETA</title>
+      <link>https://example.org/2015/06/welcome-to-tranquilpeak-0.4.4-beta/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2015/06/welcome-to-tranquilpeak-0.4.4-beta/</guid>
+      <description>&lt;p&gt;Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Who&#39;s using Tranquilpeak Hugo Theme</title>
+      <link>https://example.org/2015/06/who-is-using-tranquilpeak-hugo-theme/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2015/06/who-is-using-tranquilpeak-hugo-theme/</guid>
+      <description>&lt;p&gt;Here you can find a list of the blogs that use Tranquilpeak theme, with different styles and customizations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Elements showcase</title>
+      <link>https://example.org/2015/05/elements-showcase/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2015/05/elements-showcase/</guid>
+      <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cover image showcase</title>
+      <link>https://example.org/2015/05/cover-image-showcase/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2015/05/cover-image-showcase/</guid>
+      <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>highlighted code showcase</title>
+      <link>https://example.org/2015/03/highlighted-code-showcase/</link>
+      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2015/03/highlighted-code-showcase/</guid>
+      <description>&lt;p&gt;Tranquilpeak Hugo theme have its own theme to highlight source code. It&amp;rsquo;s based on GitHub theme: simple and elegant. Check out how it sublimate source codes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tags plugins showcase</title>
+      <link>https://example.org/2014/10/tags-plugins-showcase/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2014/10/tags-plugins-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how tag plugins are displayed. See &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags&#34;&gt;docs&lt;/a&gt; for more info.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hidden social section showcase</title>
+      <link>https://example.org/2014/08/hidden-social-section-showcase/</link>
+      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2014/08/hidden-social-section-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hidden tag section showcase</title>
+      <link>https://example.org/2014/08/hidden-tag-section-showcase/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2014/08/hidden-tag-section-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the tag section is hidden.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hidden pagination showcase</title>
+      <link>https://example.org/2014/08/hidden-pagination-showcase/</link>
+      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2014/08/hidden-pagination-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Video integrations showcase</title>
+      <link>https://example.org/2014/08/video-integrations-showcase/</link>
+      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2014/08/video-integrations-showcase/</guid>
+      <description>&lt;p&gt;Youtube and Vimeo videos are easily integrated thanks to tags plugins. Of course, you can add video other platforms like dailymotion.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>中文測試</title>
+      <link>https://example.org/2013/10/chinese-test/</link>
+      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2013/10/chinese-test/</guid>
+      <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Image gallery showcase</title>
+      <link>https://example.org/2013/02/image-gallery-showcase/</link>
+      <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2013/02/image-gallery-showcase/</guid>
+      <description>&lt;p&gt;And here is the image gallery!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日本語テスト</title>
+      <link>https://example.org/2013/01/japanese-test/</link>
+      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2013/01/japanese-test/</guid>
+      <description>&lt;p&gt;This is a Japanese test post to show you how japanese is displayed.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
