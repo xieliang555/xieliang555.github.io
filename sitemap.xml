@@ -3,312 +3,317 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gohugo.io/categories/</loc>
+    <loc>https://example.org/categories/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/</loc>
+    <loc>https://example.org/post/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/9/</loc>
+    <loc>https://example.org/2019/07/rl%E4%BC%AA%E4%BB%A3%E7%A0%81/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/</loc>
-    <lastmod>2019-07-26T16:49:13+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/categories/category/</loc>
+    <loc>https://example.org/tags/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/categories/subcategory/</loc>
+    <loc>https://example.org/categories/category/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/tag1/</loc>
+    <loc>https://example.org/categories/subcategory/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/tag2/</loc>
+    <loc>https://example.org/tags/tag1/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/8/</loc>
+    <loc>https://example.org/tags/tag2/</loc>
+    <lastmod>2019-07-26T16:49:13+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/07/summary-of-notation/</loc>
     <lastmod>2019-07-13T13:42:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/7/</loc>
+    <loc>https://example.org/2019/07/model-free-rl/</loc>
     <lastmod>2019-07-13T13:39:50+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/6/</loc>
+    <loc>https://example.org/2019/07/exploration/</loc>
     <lastmod>2019-07-02T15:13:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/5/</loc>
+    <loc>https://example.org/2019/07/actor-critic/</loc>
     <lastmod>2019-07-02T09:02:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/4/</loc>
+    <loc>https://example.org/2019/07/q-learning/</loc>
     <lastmod>2019-07-02T08:50:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/3/</loc>
+    <loc>https://example.org/2019/06/policy-gradient-with-baseline/</loc>
     <lastmod>2019-06-30T18:16:57+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/2/</loc>
+    <loc>https://example.org/2019/06/policy-gradient%E5%85%AC%E5%BC%8F%E8%83%8C%E5%90%8E%E7%9A%84%E7%9B%B4%E8%A7%82%E8%A7%A3%E9%87%8A/</loc>
     <lastmod>2019-06-29T14:17:10+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/welcome-to-the-new-tranquilpeak/</loc>
+    <loc>https://example.org/2015/06/welcome-to-tranquilpeak-0.4.4-beta/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/disqus/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/tags/google-analytics/</loc>
+    <loc>https://example.org/tags/disqus/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/gravatar/</loc>
+    <loc>https://example.org/tags/google-analytics/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/hexo-theme/</loc>
+    <loc>https://example.org/tags/gravatar/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/categories/releases/</loc>
+    <loc>https://example.org/tags/hexo-theme/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/responsive/</loc>
+    <loc>https://example.org/categories/releases/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/categories/tranquilpeak/</loc>
+    <loc>https://example.org/tags/responsive/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/who-is-using-tranquilpeak-hugo-theme/</loc>
+    <loc>https://example.org/categories/tranquilpeak/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2015/06/who-is-using-tranquilpeak-hugo-theme/</loc>
     <lastmod>2015-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/categories/showcase-appliqu%C3%A9e/</loc>
+    <loc>https://example.org/categories/showcase-appliqu%C3%A9e/</loc>
     <lastmod>2015-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/elements-showcase/</loc>
+    <loc>https://example.org/2015/05/elements-showcase/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/categories/features/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/tags/html-elements/</loc>
+    <loc>https://example.org/categories/features/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/markdown/</loc>
+    <loc>https://example.org/tags/html-elements/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/cover-image-showcase/</loc>
+    <loc>https://example.org/tags/markdown/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2015/05/cover-image-showcase/</loc>
     <lastmod>2015-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/cover-image/</loc>
+    <loc>https://example.org/tags/cover-image/</loc>
     <lastmod>2015-05-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/github-theme/</loc>
+    <loc>https://example.org/tags/github-theme/</loc>
     <lastmod>2015-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/highlight-code/</loc>
+    <loc>https://example.org/tags/highlight-code/</loc>
     <lastmod>2015-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/highlighted-code-showcase/</loc>
+    <loc>https://example.org/2015/03/highlighted-code-showcase/</loc>
     <lastmod>2015-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/test/</loc>
+    <loc>https://example.org/tags/test/</loc>
     <lastmod>2015-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/tags-plugins-showcase/</loc>
+    <loc>https://example.org/2014/10/tags-plugins-showcase/</loc>
     <lastmod>2014-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/tag-plugins/</loc>
+    <loc>https://example.org/tags/tag-plugins/</loc>
     <lastmod>2014-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/hidden-social-section-showcase/</loc>
+    <loc>https://example.org/2014/08/hidden-social-section-showcase/</loc>
     <lastmod>2014-08-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/social/</loc>
+    <loc>https://example.org/tags/social/</loc>
     <lastmod>2014-08-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/hidden-tag-section-showcase/</loc>
+    <loc>https://example.org/2014/08/hidden-tag-section-showcase/</loc>
     <lastmod>2014-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/tags/</loc>
+    <loc>https://example.org/tags/tags/</loc>
     <lastmod>2014-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/hidden-pagination-showcase/</loc>
+    <loc>https://example.org/2014/08/hidden-pagination-showcase/</loc>
     <lastmod>2014-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/pagination/</loc>
+    <loc>https://example.org/tags/pagination/</loc>
     <lastmod>2014-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/video-integrations-showcase/</loc>
+    <loc>https://example.org/2014/08/video-integrations-showcase/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/dailymotion/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/tags/videos-integration/</loc>
+    <loc>https://example.org/tags/dailymotion/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/vimeo/</loc>
+    <loc>https://example.org/tags/videos-integration/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/youtube/</loc>
+    <loc>https://example.org/tags/vimeo/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/chinese/</loc>
+    <loc>https://example.org/tags/youtube/</loc>
+    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/chinese/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/chinese-test/</loc>
+    <loc>https://example.org/2013/10/chinese-test/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/image-gallery-showcase/</loc>
+    <loc>https://example.org/2013/02/image-gallery-showcase/</loc>
     <lastmod>2013-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/image-gallery/</loc>
+    <loc>https://example.org/tags/image-gallery/</loc>
     <lastmod>2013-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/japanese/</loc>
+    <loc>https://example.org/tags/japanese/</loc>
     <lastmod>2013-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/japanese-test/</loc>
+    <loc>https://example.org/2013/01/japanese-test/</loc>
     <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/archives/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
