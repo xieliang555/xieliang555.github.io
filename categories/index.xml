@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Jane - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Jane - A super concise theme for Hugo</description>
+    <title>Categories on Example YinYong Blog</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on Example YinYong Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>category</title>
-      <link>http://localhost:1313/categories/category/</link>
+      <link>https://example.com/categories/category/</link>
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/category/</guid>
+      <guid>https://example.com/categories/category/</guid>
       <description></description>
     </item>
     
     <item>
       <title>subcategory</title>
-      <link>http://localhost:1313/categories/subcategory/</link>
+      <link>https://example.com/categories/subcategory/</link>
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/subcategory/</guid>
+      <guid>https://example.com/categories/subcategory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>releases</title>
-      <link>http://localhost:1313/categories/releases/</link>
+      <link>https://example.com/categories/releases/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/releases/</guid>
+      <guid>https://example.com/categories/releases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tranquilpeak</title>
-      <link>http://localhost:1313/categories/tranquilpeak/</link>
+      <link>https://example.com/categories/tranquilpeak/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/tranquilpeak/</guid>
+      <guid>https://example.com/categories/tranquilpeak/</guid>
       <description></description>
     </item>
     
     <item>
       <title>showcase appliquée</title>
-      <link>http://localhost:1313/categories/showcase-appliqu%C3%A9e/</link>
+      <link>https://example.com/categories/showcase-appliqu%C3%A9e/</link>
       <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/showcase-appliqu%C3%A9e/</guid>
+      <guid>https://example.com/categories/showcase-appliqu%C3%A9e/</guid>
       <description></description>
     </item>
     
     <item>
       <title>features</title>
-      <link>http://localhost:1313/categories/features/</link>
+      <link>https://example.com/categories/features/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/features/</guid>
+      <guid>https://example.com/categories/features/</guid>
       <description></description>
     </item>
     

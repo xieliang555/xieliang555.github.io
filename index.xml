@@ -1,775 +1,187 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jane - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Jane - A super concise theme for Hugo</description>
+    <title>Example YinYong Blog</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Example YinYong Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RL伪代码</title>
-      <link>http://localhost:1313/post/9/</link>
+      <link>https://example.com/9/</link>
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/9/</guid>
-      
-        <description>&lt;p&gt;DQN
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/9/DQN.png&#34; alt=&#34;optimal&#34; /&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Double DQN
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/9/Double DQN.png&#34; alt=&#34;optimal&#34; /&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;PER
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/9/PER.png&#34; alt=&#34;optimal&#34; /&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;VPG
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/9/VPG.png&#34; alt=&#34;optimal&#34; /&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;A3C
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/9/A3C.png&#34; alt=&#34;optimal&#34; /&gt;&lt;/div&gt;&lt;/p&gt;</description>
-      
+      <guid>https://example.com/9/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Summary of Notation</title>
-      <link>http://localhost:1313/post/8/</link>
+      <link>https://example.com/8/</link>
       <pubDate>Sat, 13 Jul 2019 13:42:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/8/</guid>
-      
-        <description>&lt;p&gt;RL中的符号说明:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;大写：随机变量&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;小写：随机变量的值或标量函数（返回值为标量）&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;小写粗体：实值向量或随机变量向量&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;大写粗体：矩阵&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;符号&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;描述&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;$v_{\pi}(s)$&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;value of state $s$ under policy $\pi$ (expected return)&lt;/td&gt;
-&lt;td&gt;state-value&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;$v_{*}(s)$&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;value of state $s$ under the optimal policy $\pi$&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;$q_{\pi}(s,a)$&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;value of taking action $a$ in state $s$ under policy $\pi$&lt;/td&gt;
-&lt;td&gt;action-value&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;$q_{*}(s,a)$&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;value of taking action $a$ in state $s$ under the optimal policy $\pi$&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;$\pi$&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;policy (decision-making rule)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;$\pi(a|s)$&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;probability of taking action $a$ in state $s$ under stochastic policy $\pi$&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description>
-      
+      <guid>https://example.com/8/</guid>
+      <description>&lt;p&gt;RL中的符号说明:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Model free RL</title>
-      <link>http://localhost:1313/post/7/</link>
+      <link>https://example.com/7/</link>
       <pubDate>Sat, 13 Jul 2019 13:39:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/7/</guid>
-      
-        <description>&lt;p&gt;action-value methods (Q-learning)&lt;br /&gt;
+      <guid>https://example.com/7/</guid>
+      <description>&lt;p&gt;action-value methods (Q-learning)&lt;br /&gt;
 policy-based methods (Policy gradient)&lt;br /&gt;
-Actor-critic&lt;/p&gt;
-
-&lt;h3 id=&#34;similarities-and-differences&#34;&gt;Similarities and Differences&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Q-learning:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Q-learning通过学习action-value function q(s,a)间接获得策略（policy）。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Policy gradient:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Policy gradient直接学习policy。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Actor-critic&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;同时学习policy和state-value function v(s)。其中actor指policy，critic指state-value function。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Similarities see Ref. &lt;a href=&#34;https://arxiv.org/pdf/1704.06440.pdf&#34;&gt;Equivalence Between Policy Gradients and Soft Q-Learning&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;pros-and-cons&#34;&gt;Pros and Cons&lt;/h3&gt;</description>
-      
+Actor-critic&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Exploration</title>
-      <link>http://localhost:1313/post/6/</link>
+      <link>https://example.com/6/</link>
       <pubDate>Tue, 02 Jul 2019 15:13:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/6/</guid>
-      
-        <description>&lt;p&gt;Q-learning：&lt;br /&gt;
-1. greedy-$\epsilon$&lt;br /&gt;
-2. softmax&lt;br /&gt;
-3. pursuit&lt;br /&gt;
-4. UCB-1&lt;/p&gt;
-
-&lt;p&gt;参考论文：&lt;a href=&#34;http://www.ai.rug.nl/~mwiering/GROUP/ARTICLES/Exploration_QLearning.pdf&#34;&gt;Comparing Exploration Strategies for Q-learning in Random Stochastic Mazes&lt;/a&gt;&lt;/p&gt;</description>
-      
+      <guid>https://example.com/6/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Actor-critic</title>
-      <link>http://localhost:1313/post/5/</link>
+      <link>https://example.com/5/</link>
       <pubDate>Tue, 02 Jul 2019 09:02:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/5/</guid>
-      
-        <description></description>
-      
+      <guid>https://example.com/5/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Q-learning</title>
-      <link>http://localhost:1313/post/4/</link>
+      <link>https://example.com/4/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:01 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/4/</guid>
-      
-        <description>&lt;p&gt;改进：cs 294-112 lec-8&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/double-q-learning-the-easy-way-a924c4085ec3&#34;&gt;为什么Q值会高估&lt;/a&gt;&lt;/p&gt;</description>
-      
+      <guid>https://example.com/4/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Policy Gradient with Baseline</title>
-      <link>http://localhost:1313/post/3/</link>
+      <link>https://example.com/3/</link>
       <pubDate>Sun, 30 Jun 2019 18:16:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/3/</guid>
-      
-        <description>&lt;blockquote&gt;
-&lt;p&gt;Recall:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;see Ref: &lt;a href=&#34;https://arxiv.org/pdf/1506.02438.pdf&#34;&gt;HIGH-DIMENSIONAL CONTINUOUS CONTROL USING GENERALIZED ADVANTAGE ESTIMATION&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The simplest policy gradient:&lt;br /&gt;
-$$\nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}[\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)\sum_{t=0}^Tr_t]$$&lt;/p&gt;
-
-&lt;p&gt;policy gradient with reward-to-go:&lt;br /&gt;
-$$\nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}[\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)\sum_{t&amp;rsquo;=t}^Tr_{t&amp;rsquo;}]$$&lt;/p&gt;
-
-&lt;p&gt;policy gradient with the expected reward-to-go:
-$$\nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}[\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)Q^{\pi_{\theta}}(s_t,a_t)]$$&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Baseline:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Advantage with reward-to-go and the expected reward (cs294 hw2 baseline):
-$$ \nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}\lbrace\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)[\sum_{t&amp;rsquo;=t}^Tr_{t&amp;rsquo;}-V^{\pi_{\theta}}(s_t)]\rbrace$$&lt;/p&gt;
-
-&lt;p&gt;Advantage with the expected reward-to-go and the expected reward (spinup vpg):
-$$ \nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}\lbrace\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)[Q^{\pi_{\theta}}(s_t,a_t)-V^{\pi_{\theta}}(s_t)]\rbrace$$&lt;/p&gt;
-
-&lt;p&gt;vpg can achieve the minimum variance ,see cs295 lec-5 analysis variance&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.quora.com/Why-does-the-policy-gradient-method-have-a-high-variance&#34;&gt;参考&lt;/a&gt;&lt;/p&gt;</description>
-      
+      <guid>https://example.com/3/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Policy Gradient公式背后的直观解释</title>
-      <link>http://localhost:1313/post/2/</link>
+      <link>https://example.com/2/</link>
       <pubDate>Sat, 29 Jun 2019 14:17:10 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/2/</guid>
-      
-        <description>&lt;h4 id=&#34;pg公式背后的直观解释&#34;&gt;PG公式背后的直观解释：&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xieliang555/intuitive_policy_gradient&#34;&gt;git repo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;首先，我们的目标是不断更新 $\theta$，直到 $\pi_{\theta}$收敛到最优 &lt;em&gt;policy&lt;/em&gt; 。对于离散动作空间，$\pi_{\theta}$ 可以是一个 &lt;em&gt;MLP&lt;/em&gt; 神经网络（最后一层是 &lt;em&gt;softmax&lt;/em&gt; ），那么神经网络的输出可以看作是 每一个动作的概率，即 $\pi_{\theta}(a_t|s_t)$。&lt;/p&gt;
-
-&lt;p&gt;很显然，如果动作 $a^*$ 是在状态 $s$下的最优动作，那么我们希望 $\pi_{\theta}(a^*|s)$尽可能的接近1。现在假设离散动作空间的维度是3， 并已知状态 $s$下的最优动作是第一个动作，那么只需要利用梯度上升更新 $\theta$，就可以得到最优 &lt;em&gt;policy&lt;/em&gt;:
-$$\theta_{t+1}=\theta_{t}+\alpha\nabla_{\theta}\pi_{\theta}(a^*|s)|_{\theta_{t}}$$
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/2/1.png&#34; alt=&#34;optimal&#34; /&gt;&lt;div align=left&gt;
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/2/random_action.gif&#34; alt=&#34;optimal&#34; /&gt;&lt;div align=left&gt;
-上面的 &lt;em&gt;gif&lt;/em&gt; 图中，每一个 &lt;em&gt;bar&lt;/em&gt; 的高度表示在状态 &lt;em&gt;s&lt;/em&gt; 下对应动作的概率。由于目前只以增大第一个动作概率为目标更新参数，故只有第一个 &lt;em&gt;bar&lt;/em&gt; 的概率增大，而其他概率减小。&lt;/p&gt;
-
-&lt;p&gt;但是，我们目前不知道哪个动作是最优的，毕竟这是最终需要求的。因此也不知道要以哪个动作的概率为目标更新参数。一个方法是每次迭代时，随机选择一个动作的概率作为目标，但是对不同动作的更新幅度赋予不同的权重 ，$\hat{Q}(s,a)$表示在状态 $s$ 下动作 $a$ 的 &lt;em&gt;value&lt;/em&gt; ，可以通过样本估计获得。更优的动作 &lt;em&gt;value&lt;/em&gt; 更高，因此在相同更新次数(随机选择动作)的情况下，相对更优的动作的概率增长幅度更大，那么最终也能收敛到最优 &lt;em&gt;policy&lt;/em&gt; 。
-$$\theta_{t+1}=\theta_{t}+\alpha \hat{Q}(s,a)\nabla_{\theta}\pi_{\theta}(a|s)|_{\theta_{t}}$$
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/2/2.png&#34; alt=&#34;optimal&#34; /&gt;&lt;div align=left&gt;
-&lt;div align=center&gt;&lt;img src=&#34;http://localhost:1313/2/random_action.gif&#34; alt=&#34;optimal&#34; /&gt;&lt;div align=left&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;为什么要减小梯度估计的样本方差？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;为了使神经网络的参数更新更稳定，收敛更快。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;如何减小方差及原因（证明）：&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(1) 更大的batch，更小的learning rate&lt;/p&gt;
-
-&lt;p&gt;(2) reward-to-go:&lt;br /&gt;
-But how is this better? A key problem with policy gradients is how many sample trajectories are needed to get a low-variance sample estimate for them. The formula we started with included terms for reinforcing actions proportional to past rewards, all of which had zero mean, but nonzero variance: as a result, they would just add noise to sample estimates of the policy gradient. By removing them, we reduce the number of sample trajectories needed.&lt;/p&gt;
-
-&lt;p&gt;(3) advantage centering&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;实验证明：&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;average return可以衡量policy gradient的样本方差？&lt;/p&gt;
-
-&lt;p&gt;图+代码&lt;/p&gt;</description>
-      
+      <guid>https://example.com/2/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Welcome to Tranquilpeak 0.4.4-BETA</title>
-      <link>http://localhost:1313/post/welcome-to-the-new-tranquilpeak/</link>
+      <link>https://example.com/welcome-to-the-new-tranquilpeak/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/welcome-to-the-new-tranquilpeak/</guid>
-      
-        <description>&lt;p&gt;Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/showcase.png&#34; alt=&#34;Tranquilpeak&#34; /&gt;
-Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.
-&lt;!-- toc --&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;tranquilpeak&#34;&gt;Tranquilpeak&lt;/h1&gt;
-
-&lt;!--[![Join the chat at https://gitter.im/LouisBarranqueiro/hexo-theme-tranquilpeak](https://badges.gitter.im/Join%20Chat.svg)](http s://gitter.im/LouisBarranqueiro/hexo-theme-tranquilpeak?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge)--&gt;
-
-&lt;p&gt;A gorgeous responsive theme for Hugo blog framework&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://tranquilpeak.kakawait.com&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/showcase.png&#34; alt=&#34;Tranquilpeak&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;alpha-beta-versions&#34;&gt;Alpha/Beta versions&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;ATTENTION&lt;/strong&gt; during &lt;em&gt;alpha&lt;/em&gt; or &lt;em&gt;beta&lt;/em&gt; &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/milestones&#34;&gt;versions&lt;/a&gt; breaking changes are possible on config file.&lt;/p&gt;
-
-&lt;p&gt;You can track &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/issues?q=is%3Aissue+is%3Aopen+label%3A%22breaking+changes%22&#34;&gt;breaking changes label&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;How can I migrate my current version? Please read &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/CHANGELOG.md&#34;&gt;CHANGELOG.md&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;credits&#34;&gt;Credits&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Hugo&lt;/em&gt; version of Tranquilpeak is a based on original &lt;em&gt;Hexo&lt;/em&gt; version &lt;a href=&#34;https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak&#34;&gt;https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak&lt;/a&gt;. This version is simply a port to &lt;em&gt;Hugo&lt;/em&gt; static site generator.&lt;/p&gt;
-
-&lt;p&gt;Please all the credit should be attributed to &lt;a href=&#34;https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak&#34;&gt;original &lt;em&gt;Hexo&lt;/em&gt; version&lt;/a&gt; and its author &lt;a href=&#34;https://github.com/LouisBarranqueiro&#34;&gt;Louis Barranqueiro&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Hugo&lt;/em&gt; version keeps every &lt;code&gt;.js&lt;/code&gt; and &lt;code&gt;.css&lt;/code&gt; files untouched from original &lt;em&gt;Hexo&lt;/em&gt; version in order to enjoy futur original &lt;em&gt;Hexo&lt;/em&gt; version updates or features!&lt;/p&gt;
-
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#general&#34;&gt;General&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#quick-start&#34;&gt;Quick start&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#demo&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#documentation&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#showcase&#34;&gt;Showcase&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;general&#34;&gt;General&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Authors&lt;/strong&gt;: &lt;a href=&#34;https://github.com/LouisBarranqueiro&#34;&gt;Louis Barranqueiro (LouisBarranqueiro)&lt;/a&gt; and &lt;a href=&#34;https://github.com/kakawait&#34;&gt;Thibaud Leprêtre (kakawait)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Version&lt;/strong&gt;: 0.4.4-BETA (based on Hexo version 1.10.0)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Compatibility&lt;/strong&gt;: Hugo v0.20.1&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;General features:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fully responsive&lt;/li&gt;
-&lt;li&gt;Optimized for tablets &amp;amp; mobiles&lt;/li&gt;
-&lt;li&gt;Configurable menu of the sidebar&lt;/li&gt;
-&lt;li&gt;Pages to filter tags, categories and archives&lt;/li&gt;
-&lt;li&gt;Background cover image&lt;/li&gt;
-&lt;li&gt;Beautiful about page&lt;/li&gt;
-&lt;li&gt;Support Open Graph protocol&lt;/li&gt;
-&lt;li&gt;Easily customizable (fonts, colors, layout elements, code coloration, etc..)&lt;/li&gt;
-&lt;li&gt;Documentations&lt;/li&gt;
-&lt;li&gt;Support internationalization (i18)
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Posts features:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Thumbnail image&lt;/li&gt;
-&lt;li&gt;Cover image&lt;/li&gt;
-&lt;li&gt;Responsive videos &amp;amp; images&lt;/li&gt;
-&lt;li&gt;Sharing options&lt;/li&gt;
-&lt;li&gt;Navigation menu&lt;/li&gt;
-&lt;li&gt;GitHub theme for code highlighting (customizable)&lt;/li&gt;
-&lt;li&gt;Image gallery&lt;/li&gt;
-&lt;li&gt;Tags for images (FancyBox), wide images, tabbed code blocks, highlighted text, alerts&lt;/li&gt;
-&lt;li&gt;Table of contents&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Integrated services:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Disqus&lt;/li&gt;
-&lt;li&gt;Google analytics&lt;/li&gt;
-&lt;li&gt;Gravatar&lt;/li&gt;
-&lt;li&gt;Facebook Insights&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;missing-features-from-original-hexo-version&#34;&gt;Missing features from original &lt;em&gt;Hexo&lt;/em&gt; version&lt;/h3&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Baidu analytics&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Algolia (&lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/issues/8&#34;&gt;https://github.com/kakawait/hugo-tranquilpeak-theme/issues/8&lt;/a&gt;)&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Pagination custumization &lt;code&gt;tagPagination&lt;/code&gt;, &lt;code&gt;categoryPagination&lt;/code&gt; and &lt;code&gt;archivePagination&lt;/code&gt; (&lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/issues/17&#34;&gt;https://github.com/kakawait/hugo-tranquilpeak-theme/issues/17&lt;/a&gt;)&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;ATTENTION&lt;/strong&gt; following features will not be possible due to &lt;em&gt;Hugo&lt;/em&gt; limitations&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Archives pages by years &lt;code&gt;/archives/2015&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Archives pages by month &lt;code&gt;/archives/2015/01&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Please read &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md&#34;&gt;user documentation&lt;/a&gt;, it&amp;rsquo;s short and useful to discover all features and possibilities of the theme, especially the  &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#writing-posts&#34;&gt;writing posts&lt;/a&gt; section&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;for-people-who-want-to-use-the-original-version-of-tranquilpeak-without-modifications-users&#34;&gt;For people who want to use the original version of Tranquilpeak without modifications (users)&lt;/h3&gt;
-
-&lt;p&gt;Go to the directory where you have your Hugo site and run:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;mkdir themes
-cd themes
-git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After installing the Tranquilpeak theme successfully, we recommend you to take a look at the &lt;a href=&#34;exampleSite&#34;&gt;exampleSite&lt;/a&gt; directory. You will find a working Hugo site configured with the Universal theme that you can use as a starting point for your site.&lt;/p&gt;
-
-&lt;p&gt;First, let&amp;rsquo;s take a look at the &lt;a href=&#34;exampleSite/config.tom&#34;&gt;config.toml&lt;/a&gt;. It will be useful to learn how to customize your site. Feel free to play around with the settings.&lt;/p&gt;
-
-&lt;p&gt;More information on &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md&#34;&gt;user documentation&lt;/a&gt; to install and configure the theme&lt;/p&gt;
-
-&lt;h3 id=&#34;for-people-who-want-to-create-their-own-version-of-tranquilpeak-developers&#34;&gt;For people who want to create their own version of tranquilpeak (developers)&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Run &lt;code&gt;git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Follow &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.md&#34;&gt;developer documentation&lt;/a&gt; to edit and build the theme&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
-
-&lt;p&gt;Check out Tranquilpeak theme in live : &lt;a href=&#34;https://tranquilpeak.kakawait.com&#34;&gt;hugo-tranquilpeak-theme demo&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;showcase&#34;&gt;Showcase&lt;/h2&gt;
-
-&lt;p&gt;Checkout showcase &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/wiki/Showcase&#34;&gt;https://github.com/kakawait/hugo-tranquilpeak-theme/wiki/Showcase&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;how-can-i-add-my-site-to-the-showcase&#34;&gt;How can I add my site to the showcase&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Click &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/issues/new?title=Add%20my%20blog%20into%20the%20showcase&amp;amp;body=Hey,%20add%20my%20blog%20into%20the%20showcase:&#34;&gt;here&lt;/a&gt; to add your blog into the showcase.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please fill the following information:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;public url&lt;/li&gt;
-&lt;li&gt;name (optional)&lt;/li&gt;
-&lt;li&gt;description (optional)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
-
-&lt;p&gt;If it&amp;rsquo;s your first time using Hugo, please check &lt;a href=&#34;https://gohugo.io/overview/introduction/&#34;&gt;Hugo official documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;for-users&#34;&gt;For users&lt;/h3&gt;
-
-&lt;p&gt;To install and configure the theme, consult the following documentation : &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md&#34;&gt;user documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;for-developers&#34;&gt;For developers&lt;/h3&gt;
-
-&lt;p&gt;To understand the code, the workflow and edit the theme, consult the following documentation : &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.md&#34;&gt;developer documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
-
-&lt;p&gt;All kinds of contributions (enhancements, new features, documentation &amp;amp; code improvements, issues &amp;amp; bugs reporting) are welcome.&lt;/p&gt;
-
-&lt;p&gt;As explained on &lt;a href=&#34;#credits&#34;&gt;Credits&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Hugo&lt;/em&gt; version keeps every &lt;code&gt;.js&lt;/code&gt; and &lt;code&gt;.css&lt;/code&gt; files untouched from original &lt;em&gt;Hexo&lt;/em&gt; version in order to enjoy futur original &lt;em&gt;Hexo&lt;/em&gt; version updates or features!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That mean I would keep a stronge dependency with original &lt;em&gt;Hexo&lt;/em&gt; theme. Thus if you want to suggest any modifications on &lt;code&gt;.css&lt;/code&gt; or &lt;code&gt;.js&lt;/code&gt; files &lt;strong&gt;I will submit those changes to original &lt;em&gt;Hexo&lt;/em&gt; theme&lt;/strong&gt; (except if it&amp;rsquo;s really specific to &lt;em&gt;Hugo&lt;/em&gt; bugs that is not present on &lt;em&gt;Hexo&lt;/em&gt;).&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;hugo-tranquilpeak-theme is released under the terms of the &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/LICENSE&#34;&gt;GNU General Public License v3.0&lt;/a&gt;.&lt;/p&gt;</description>
-      
+      <guid>https://example.com/welcome-to-the-new-tranquilpeak/</guid>
+      <description>&lt;p&gt;Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Who&#39;s using Tranquilpeak Hugo Theme</title>
-      <link>http://localhost:1313/post/who-is-using-tranquilpeak-hugo-theme/</link>
+      <link>https://example.com/who-is-using-tranquilpeak-hugo-theme/</link>
       <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/who-is-using-tranquilpeak-hugo-theme/</guid>
-      
-        <description>&lt;p&gt;Here you can find a list of the blogs that use Tranquilpeak theme, with different styles and customizations.&lt;/p&gt;
-
-&lt;p&gt;If you want to add your site to this showcase, click &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/issues/new?title=Add%20my%20blog%20into%20the%20showcase&amp;amp;body=Hey,%20add%20my%20blog%20into%20the%20showcase:&#34;&gt;here&lt;/a&gt; and fill the following information:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;public url&lt;/li&gt;
-&lt;li&gt;name (optional)&lt;/li&gt;
-&lt;li&gt;description (optional)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;eric-bouchut-s-blog&#34;&gt;Eric Bouchut&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ericbouchut.com/&#34;&gt;&lt;img src=&#34;http://i.imgur.com/zQmKIKNm.png&#34; alt=&#34;Eric Bouchut&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;pankaj-kumar-s-blog&#34;&gt;Pankaj Kumar&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://pnarula.com/&#34;&gt;&lt;img src=&#34;http://i.imgur.com/WHpb9ZKm.png&#34; alt=&#34;Pankaj Kumar&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;paul-wolke-s-blog&#34;&gt;Paul Wolke&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.paulwolke.com/&#34;&gt;&lt;img src=&#34;http://i.imgur.com/zHm1BVXm.png&#34; alt=&#34;Paul Wolke&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;robin-hu-s-blog&#34;&gt;Robin Hu&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://robinforest.net/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/7SujaMam.png&#34; alt=&#34;Robin Hu&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;zentechnista-s-blog&#34;&gt;Zentechnista&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://zentechnista.github.io/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/7zN7WMMm.png&#34; alt=&#34;Zentechnista&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;yamila-moreno-s-blog&#34;&gt;Yamila Moreno&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://moduslaborandi.net/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/L51G3pJ.png&#34; alt=&#34;Yamila Moreno&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;viajes-dendarii-s-blog&#34;&gt;Viajes Dendarii&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://dendarii.es&#34;&gt;&lt;img src=&#34;https://i.imgur.com/tdXK3kYm.png&#34; alt=&#34;Viajes Dendarii&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;wajahat-karim-s-blog&#34;&gt;Wajahat Karim&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://wajahatkarim.com/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/9BPoJvdm.png&#34; alt=&#34;Wajahat Karim&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;xiaoyun-yang-s-blog&#34;&gt;Xiaoyun Yang&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://xiaoyunyang.github.io/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/vVRSvhpm.png&#34; alt=&#34;Xiaoyun Yang&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;alfred-e-lin-s-blog&#34;&gt;Alfred E. Lin&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://alfredlin.com/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/lHwsvIJm.png&#34; alt=&#34;Alfred E. Lin&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;philipp-gärtner-s-blog&#34;&gt;Philipp Gärtner&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://philippgaertner.github.io/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/Sx6oXnSm.png&#34; alt=&#34;Philipp Gärtner&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;sagar-khatri-s-blog&#34;&gt;Sagar Khatri&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.ragasirtahk.tk/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/edZ3PO9m.png&#34; alt=&#34;Sagar Khatri&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;dr-cruz-rincón-s-blog&#34;&gt;Dr. Cruz Rincón&amp;rsquo;s blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.cruzrincon.com.ve/&#34;&gt;&lt;img src=&#34;https://i.imgur.com/XazQAolm.png&#34; alt=&#34;Dr. Cruz Rincón&#39;s blog&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
-      
+      <guid>https://example.com/who-is-using-tranquilpeak-hugo-theme/</guid>
+      <description>&lt;p&gt;Here you can find a list of the blogs that use Tranquilpeak theme, with different styles and customizations.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Elements showcase</title>
-      <link>http://localhost:1313/post/elements-showcase/</link>
+      <link>https://example.com/elements-showcase/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/elements-showcase/</guid>
-      
-        <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;
-
-&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, [test link]() consectetur adipiscing elit. &lt;strong&gt;Strong text&lt;/strong&gt; pellentesque ligula commodo viverra vehicula. &lt;em&gt;Italic text&lt;/em&gt; at ullamcorper enim. Morbi a euismod nibh. &lt;u&gt;Underline text&lt;/u&gt; non elit nisl. &lt;del&gt;Deleted text&lt;/del&gt; tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.&lt;/p&gt;
-
-&lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. &lt;code&gt;Sed erat diam&lt;/code&gt;, blandit eget felis aliquam, rhoncus varius urna. Donec tellus sapien, sodales eget ante vitae, feugiat ullamcorper urna. Praesent auctor dui vitae dapibus eleifend. Proin viverra mollis neque, ut ullamcorper elit posuere eget.&lt;/p&gt;
-
-&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&#34;definition-list-dl&#34;&gt;Definition List (dl)&lt;/h3&gt;
-
-&lt;dl&gt;&lt;dt&gt;Definition List Title&lt;/dt&gt;&lt;dd&gt;This is a definition list division.&lt;/dd&gt;&lt;/dl&gt;
-
-&lt;h3 id=&#34;ordered-list-ol&#34;&gt;Ordered List (ol)&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
-&lt;li&gt;List Item 2&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;unordered-list-ul&#34;&gt;Unordered List (ul)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
-&lt;li&gt;List Item 2&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Header 1&lt;/th&gt;
-&lt;th&gt;Header 2&lt;/th&gt;
-&lt;th&gt;Header 3&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Division 1&lt;/td&gt;
-&lt;td&gt;Division 2&lt;/td&gt;
-&lt;td&gt;Division 3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;misc-stuff-abbr-acronym-sub-sup-etc&#34;&gt;Misc Stuff - abbr, acronym, sub, sup, etc.&lt;/h2&gt;
-
-&lt;p&gt;Lorem &lt;sup&gt;superscript&lt;/sup&gt; dolor &lt;sub&gt;subscript&lt;/sub&gt; amet, consectetuer adipiscing &lt;kdb&gt;ctrl + c&lt;/kdb&gt;. Nullam dignissim convallis est. Quisque aliquam. &lt;cite&gt;cite&lt;/cite&gt;. Nunc iaculis suscipit dui.
- Nam
-sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. &lt;acronym title=&#34;National Basketball Association&#34;&gt;NBA&lt;/acronym&gt; Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  &lt;abbr title=&#34;Avenue&#34;&gt;AVE&lt;/abbr&gt;&lt;/p&gt;</description>
-      
+      <guid>https://example.com/elements-showcase/</guid>
+      <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Cover image showcase</title>
-      <link>http://localhost:1313/post/cover-image-showcase/</link>
+      <link>https://example.com/cover-image-showcase/</link>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/cover-image-showcase/</guid>
-      
-        <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.
-Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.&lt;/p&gt;
-
-&lt;p&gt;Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.&lt;/p&gt;
-
-&lt;p&gt;Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.&lt;/p&gt;</description>
-      
+      <guid>https://example.com/cover-image-showcase/</guid>
+      <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hidden social section showcase</title>
-      <link>http://localhost:1313/post/hidden-social-section-showcase/</link>
+      <link>https://example.com/hidden-social-section-showcase/</link>
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hidden-social-section-showcase/</guid>
-      
-        <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.&lt;/p&gt;
-
-&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.&lt;/p&gt;</description>
-      
+      <guid>https://example.com/hidden-social-section-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hidden tag section showcase</title>
-      <link>http://localhost:1313/post/hidden-tag-section-showcase/</link>
+      <link>https://example.com/hidden-tag-section-showcase/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hidden-tag-section-showcase/</guid>
-      
-        <description>&lt;p&gt;This post is used to show how a site looks if the tag section is hidden.&lt;/p&gt;
-
-&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.&lt;/p&gt;</description>
-      
+      <guid>https://example.com/hidden-tag-section-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the tag section is hidden.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hidden pagination showcase</title>
-      <link>http://localhost:1313/post/hidden-pagination-showcase/</link>
+      <link>https://example.com/hidden-pagination-showcase/</link>
       <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hidden-pagination-showcase/</guid>
-      
-        <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.&lt;/p&gt;
-
-&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.&lt;/p&gt;</description>
-      
+      <guid>https://example.com/hidden-pagination-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Video integrations showcase</title>
-      <link>http://localhost:1313/post/video-integrations-showcase/</link>
+      <link>https://example.com/video-integrations-showcase/</link>
       <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/video-integrations-showcase/</guid>
-      
-        <description>&lt;p&gt;Youtube and Vimeo videos are easily integrated thanks to tags plugins. Of course, you can add video other platforms like dailymotion.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/xL45JMI8IFg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Vimeo&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//player.vimeo.com/video/17877190&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
- &lt;/div&gt;</description>
-      
+      <guid>https://example.com/video-integrations-showcase/</guid>
+      <description>&lt;p&gt;Youtube and Vimeo videos are easily integrated thanks to tags plugins. Of course, you can add video other platforms like dailymotion.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>中文測試</title>
-      <link>http://localhost:1313/post/chinese-test/</link>
+      <link>https://example.com/chinese-test/</link>
       <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/chinese-test/</guid>
-      
-        <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.&lt;/p&gt;
-
-&lt;p&gt;善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。&lt;/p&gt;
-
-&lt;p&gt;以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？&lt;/p&gt;
-
-&lt;p&gt;就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。&lt;/p&gt;
-
-&lt;p&gt;國新故。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;From &lt;a href=&#34;http://www.richyli.com/tool/loremipsum/&#34;&gt;亂數假文產生器 - Chinese Lorem Ipsum&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
-      
+      <guid>https://example.com/chinese-test/</guid>
+      <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Image gallery showcase</title>
-      <link>http://localhost:1313/post/image-gallery-showcase/</link>
+      <link>https://example.com/image-gallery-showcase/</link>
       <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/image-gallery-showcase/</guid>
-      
-        <description>&lt;p&gt;And here is the image gallery!&lt;/p&gt;</description>
-      
+      <guid>https://example.com/image-gallery-showcase/</guid>
+      <description>&lt;p&gt;And here is the image gallery!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>日本語テスト</title>
-      <link>http://localhost:1313/post/japanese-test/</link>
+      <link>https://example.com/japanese-test/</link>
       <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/japanese-test/</guid>
-      
-        <description>&lt;p&gt;This is a Japanese test post to show you how japanese is displayed.&lt;/p&gt;
-
-&lt;p&gt;私は昨日ついにその助力家というのの上よりするたなけれ。
-最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。
-がたを知っないはずも同時に九月をいよいよたありた。&lt;/p&gt;
-
-&lt;p&gt;もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;From &lt;a href=&#34;http://lipsum.sugutsukaeru.jp/index.cgi&#34;&gt;すぐ使えるダミーテキスト - 日本語 Lorem ipsum&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
-      
+      <guid>https://example.com/japanese-test/</guid>
+      <description>&lt;p&gt;This is a Japanese test post to show you how japanese is displayed.&lt;/p&gt;</description>
     </item>
     
   </channel>
