@@ -1,199 +1,193 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
-    <title>Tags on xieliang</title>
-    <link>https://example.com/tags/</link>
-    <description>Recent content in Tags on xieliang</description>
-=======
-    <title>Tags on Example YinYong Blog</title>
-    <link>https://example.com/tags/</link>
-    <description>Recent content in Tags on Example YinYong Blog</description>
->>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
+    <title>Tags on Hugo</title>
+    <link>https://gohugo.io/tags/</link>
+    <description>Recent content in Tags on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gohugo.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>tag1</title>
-      <link>https://example.com/tags/tag1/</link>
+      <link>https://gohugo.io/tags/tag1/</link>
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
-      <guid>https://example.com/tags/tag1/</guid>
+      <guid>https://gohugo.io/tags/tag1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tag2</title>
-      <link>https://example.com/tags/tag2/</link>
+      <link>https://gohugo.io/tags/tag2/</link>
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
-      <guid>https://example.com/tags/tag2/</guid>
+      <guid>https://gohugo.io/tags/tag2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>disqus</title>
-      <link>https://example.com/tags/disqus/</link>
+      <link>https://gohugo.io/tags/disqus/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/disqus/</guid>
+      <guid>https://gohugo.io/tags/disqus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google analytics</title>
-      <link>https://example.com/tags/google-analytics/</link>
+      <link>https://gohugo.io/tags/google-analytics/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/google-analytics/</guid>
+      <guid>https://gohugo.io/tags/google-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gravatar</title>
-      <link>https://example.com/tags/gravatar/</link>
+      <link>https://gohugo.io/tags/gravatar/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/gravatar/</guid>
+      <guid>https://gohugo.io/tags/gravatar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hexo theme</title>
-      <link>https://example.com/tags/hexo-theme/</link>
+      <link>https://gohugo.io/tags/hexo-theme/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/hexo-theme/</guid>
+      <guid>https://gohugo.io/tags/hexo-theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>responsive</title>
-      <link>https://example.com/tags/responsive/</link>
+      <link>https://gohugo.io/tags/responsive/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/responsive/</guid>
+      <guid>https://gohugo.io/tags/responsive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html elements</title>
-      <link>https://example.com/tags/html-elements/</link>
+      <link>https://gohugo.io/tags/html-elements/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/html-elements/</guid>
+      <guid>https://gohugo.io/tags/html-elements/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://example.com/tags/markdown/</link>
+      <link>https://gohugo.io/tags/markdown/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/markdown/</guid>
+      <guid>https://gohugo.io/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cover image</title>
-      <link>https://example.com/tags/cover-image/</link>
+      <link>https://gohugo.io/tags/cover-image/</link>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/cover-image/</guid>
+      <guid>https://gohugo.io/tags/cover-image/</guid>
       <description></description>
     </item>
     
     <item>
       <title>social</title>
-      <link>https://example.com/tags/social/</link>
+      <link>https://gohugo.io/tags/social/</link>
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/social/</guid>
+      <guid>https://gohugo.io/tags/social/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tags</title>
-      <link>https://example.com/tags/tags/</link>
+      <link>https://gohugo.io/tags/tags/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/tags/</guid>
+      <guid>https://gohugo.io/tags/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pagination</title>
-      <link>https://example.com/tags/pagination/</link>
+      <link>https://gohugo.io/tags/pagination/</link>
       <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/pagination/</guid>
+      <guid>https://gohugo.io/tags/pagination/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dailymotion</title>
-      <link>https://example.com/tags/dailymotion/</link>
+      <link>https://gohugo.io/tags/dailymotion/</link>
       <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/dailymotion/</guid>
+      <guid>https://gohugo.io/tags/dailymotion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>videos integration</title>
-      <link>https://example.com/tags/videos-integration/</link>
+      <link>https://gohugo.io/tags/videos-integration/</link>
       <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/videos-integration/</guid>
+      <guid>https://gohugo.io/tags/videos-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vimeo</title>
-      <link>https://example.com/tags/vimeo/</link>
+      <link>https://gohugo.io/tags/vimeo/</link>
       <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/vimeo/</guid>
+      <guid>https://gohugo.io/tags/vimeo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>youtube</title>
-      <link>https://example.com/tags/youtube/</link>
+      <link>https://gohugo.io/tags/youtube/</link>
       <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/youtube/</guid>
+      <guid>https://gohugo.io/tags/youtube/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chinese</title>
-      <link>https://example.com/tags/chinese/</link>
+      <link>https://gohugo.io/tags/chinese/</link>
       <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/chinese/</guid>
+      <guid>https://gohugo.io/tags/chinese/</guid>
       <description></description>
     </item>
     
     <item>
       <title>image gallery</title>
-      <link>https://example.com/tags/image-gallery/</link>
+      <link>https://gohugo.io/tags/image-gallery/</link>
       <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/image-gallery/</guid>
+      <guid>https://gohugo.io/tags/image-gallery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>japanese</title>
-      <link>https://example.com/tags/japanese/</link>
+      <link>https://gohugo.io/tags/japanese/</link>
       <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/japanese/</guid>
+      <guid>https://gohugo.io/tags/japanese/</guid>
       <description></description>
     </item>
     

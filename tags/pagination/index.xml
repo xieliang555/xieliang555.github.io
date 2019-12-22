@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
-    <title>pagination on xieliang</title>
-    <link>https://example.com/tags/pagination/</link>
-    <description>Recent content in pagination on xieliang</description>
-=======
-    <title>pagination on Example YinYong Blog</title>
-    <link>https://example.com/tags/pagination/</link>
-    <description>Recent content in pagination on Example YinYong Blog</description>
->>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
+    <title>pagination on Hugo</title>
+    <link>https://gohugo.io/tags/pagination/</link>
+    <description>Recent content in pagination on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Aug 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/pagination/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gohugo.io/tags/pagination/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hidden pagination showcase</title>
-      <link>https://example.com/hidden-pagination-showcase/</link>
+      <link>https://gohugo.io/post/hidden-pagination-showcase/</link>
       <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/hidden-pagination-showcase/</guid>
+      <guid>https://gohugo.io/post/hidden-pagination-showcase/</guid>
       <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.&lt;/p&gt;</description>
     </item>
     
