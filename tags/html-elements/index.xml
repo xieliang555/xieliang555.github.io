@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>html elements on </title>
-    <link>/tags/html-elements/</link>
-    <description>Recent content in html elements on </description>
+    <title>html elements on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/html-elements/</link>
+    <description>Recent content in html elements on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Thu, 28 May 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/html-elements/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/html-elements/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Elements showcase</title>
-      <link>/post/elements-showcase/</link>
+      <link>http://localhost:1313/post/elements-showcase/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>/post/elements-showcase/</guid>
+      <guid>http://localhost:1313/post/elements-showcase/</guid>
       <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;</description>
     </item>
     

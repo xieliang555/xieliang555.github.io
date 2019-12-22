@@ -1,314 +1,317 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/9/</loc>
+    <loc>http://localhost:1313/post/9/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-07-26T16:49:13+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/category/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/subcategory/</loc>
+    <loc>http://localhost:1313/categories/category/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tag1/</loc>
+    <loc>http://localhost:1313/categories/subcategory/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tag2/</loc>
+    <loc>http://localhost:1313/tags/tag1/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/8/</loc>
+    <loc>http://localhost:1313/tags/tag2/</loc>
+    <lastmod>2019-07-26T16:49:13+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/8/</loc>
     <lastmod>2019-07-13T13:42:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/7/</loc>
+    <loc>http://localhost:1313/post/7/</loc>
     <lastmod>2019-07-13T13:39:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/6/</loc>
+    <loc>http://localhost:1313/post/6/</loc>
     <lastmod>2019-07-02T15:13:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/5/</loc>
+    <loc>http://localhost:1313/post/5/</loc>
     <lastmod>2019-07-02T09:02:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/4/</loc>
+    <loc>http://localhost:1313/post/4/</loc>
     <lastmod>2019-07-02T08:50:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/3/</loc>
+    <loc>http://localhost:1313/post/3/</loc>
     <lastmod>2019-06-30T18:16:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/2/</loc>
+    <loc>http://localhost:1313/post/2/</loc>
     <lastmod>2019-06-29T14:17:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/welcome-to-the-new-tranquilpeak/</loc>
+    <loc>http://localhost:1313/post/welcome-to-the-new-tranquilpeak/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/disqus/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/google-analytics/</loc>
+    <loc>http://localhost:1313/tags/disqus/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/gravatar/</loc>
+    <loc>http://localhost:1313/tags/google-analytics/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/hexo-theme/</loc>
+    <loc>http://localhost:1313/tags/gravatar/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/releases/</loc>
+    <loc>http://localhost:1313/tags/hexo-theme/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/responsive/</loc>
+    <loc>http://localhost:1313/categories/releases/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/tranquilpeak/</loc>
+    <loc>http://localhost:1313/tags/responsive/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/who-is-using-tranquilpeak-hugo-theme/</loc>
+    <loc>http://localhost:1313/categories/tranquilpeak/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/who-is-using-tranquilpeak-hugo-theme/</loc>
     <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/showcase-appliqu%C3%A9e/</loc>
+    <loc>http://localhost:1313/categories/showcase-appliqu%C3%A9e/</loc>
     <lastmod>2015-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/elements-showcase/</loc>
+    <loc>http://localhost:1313/post/elements-showcase/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/features/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/html-elements/</loc>
+    <loc>http://localhost:1313/categories/features/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/markdown/</loc>
+    <loc>http://localhost:1313/tags/html-elements/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/cover-image-showcase/</loc>
+    <loc>http://localhost:1313/tags/markdown/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/cover-image-showcase/</loc>
     <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/cover-image/</loc>
+    <loc>http://localhost:1313/tags/cover-image/</loc>
     <lastmod>2015-05-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/github-theme/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/highlight-code/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/highlighted-code-showcase/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/test/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/tags-plugins-showcase/</loc>
-    <lastmod>2014-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tag-plugins/</loc>
-    <lastmod>2014-10-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/hidden-social-section-showcase/</loc>
+    <loc>http://localhost:1313/post/hidden-social-section-showcase/</loc>
     <lastmod>2014-08-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/social/</loc>
+    <loc>http://localhost:1313/tags/social/</loc>
     <lastmod>2014-08-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/hidden-tag-section-showcase/</loc>
+    <loc>http://localhost:1313/post/hidden-tag-section-showcase/</loc>
     <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/tags/</loc>
+    <loc>http://localhost:1313/tags/tags/</loc>
     <lastmod>2014-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/hidden-pagination-showcase/</loc>
+    <loc>http://localhost:1313/post/hidden-pagination-showcase/</loc>
     <lastmod>2014-08-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/pagination/</loc>
+    <loc>http://localhost:1313/tags/pagination/</loc>
     <lastmod>2014-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/video-integrations-showcase/</loc>
+    <loc>http://localhost:1313/post/video-integrations-showcase/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/dailymotion/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/videos-integration/</loc>
+    <loc>http://localhost:1313/tags/dailymotion/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/vimeo/</loc>
+    <loc>http://localhost:1313/tags/videos-integration/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/youtube/</loc>
+    <loc>http://localhost:1313/tags/vimeo/</loc>
     <lastmod>2014-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/chinese/</loc>
+    <loc>http://localhost:1313/tags/youtube/</loc>
+    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/chinese/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/chinese-test/</loc>
+    <loc>http://localhost:1313/post/chinese-test/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/image-gallery-showcase/</loc>
+    <loc>http://localhost:1313/post/image-gallery-showcase/</loc>
     <lastmod>2013-02-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/image-gallery/</loc>
+    <loc>http://localhost:1313/tags/image-gallery/</loc>
     <lastmod>2013-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/japanese/</loc>
+    <loc>http://localhost:1313/tags/japanese/</loc>
     <lastmod>2013-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/japanese-test/</loc>
+    <loc>http://localhost:1313/post/japanese-test/</loc>
     <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

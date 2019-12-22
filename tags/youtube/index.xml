@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>youtube on </title>
-    <link>/tags/youtube/</link>
-    <description>Recent content in youtube on </description>
+    <title>youtube on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/youtube/</link>
+    <description>Recent content in youtube on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 09 Aug 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Video integrations showcase</title>
-      <link>/post/video-integrations-showcase/</link>
+      <link>http://localhost:1313/post/video-integrations-showcase/</link>
       <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/video-integrations-showcase/</guid>
+      <guid>http://localhost:1313/post/video-integrations-showcase/</guid>
       <description>&lt;p&gt;Youtube and Vimeo videos are easily integrated thanks to tags plugins. Of course, you can add video other platforms like dailymotion.&lt;/p&gt;</description>
     </item>
     

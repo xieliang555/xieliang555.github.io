@@ -1,66 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on </description>
+    <title>Categories on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>category</title>
-      <link>/categories/category/</link>
+      <link>http://localhost:1313/categories/category/</link>
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
-      <guid>/categories/category/</guid>
+      <guid>http://localhost:1313/categories/category/</guid>
       <description></description>
     </item>
     
     <item>
       <title>subcategory</title>
-      <link>/categories/subcategory/</link>
+      <link>http://localhost:1313/categories/subcategory/</link>
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
-      <guid>/categories/subcategory/</guid>
+      <guid>http://localhost:1313/categories/subcategory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>releases</title>
-      <link>/categories/releases/</link>
+      <link>http://localhost:1313/categories/releases/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/categories/releases/</guid>
+      <guid>http://localhost:1313/categories/releases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tranquilpeak</title>
-      <link>/categories/tranquilpeak/</link>
+      <link>http://localhost:1313/categories/tranquilpeak/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/categories/tranquilpeak/</guid>
+      <guid>http://localhost:1313/categories/tranquilpeak/</guid>
       <description></description>
     </item>
     
     <item>
       <title>showcase appliquée</title>
-      <link>/categories/showcase-appliqu%C3%A9e/</link>
+      <link>http://localhost:1313/categories/showcase-appliqu%C3%A9e/</link>
       <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/categories/showcase-appliqu%C3%A9e/</guid>
+      <guid>http://localhost:1313/categories/showcase-appliqu%C3%A9e/</guid>
       <description></description>
     </item>
     
     <item>
       <title>features</title>
-      <link>/categories/features/</link>
+      <link>http://localhost:1313/categories/features/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>/categories/features/</guid>
+      <guid>http://localhost:1313/categories/features/</guid>
       <description></description>
     </item>
     
