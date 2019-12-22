@@ -61,12 +61,22 @@
   </url>
   
   <url>
+    <loc>https://gohugo.io/post/hugo/</loc>
+    <lastmod>2019-07-13T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gohugo.io/post/markdown/</loc>
     <lastmod>2019-07-13T13:39:50+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gohugo.io/post/7/</loc>
+    <lastmod>2019-07-13T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/sublime/</loc>
     <lastmod>2019-07-13T13:39:50+08:00</lastmod>
   </url>
   

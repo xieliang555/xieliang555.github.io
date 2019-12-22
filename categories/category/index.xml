@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Hugo</title>
+      <link>https://gohugo.io/post/hugo/</link>
+      <pubDate>Sat, 13 Jul 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/hugo/</guid>
+      <description>&lt;p&gt;command&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Markdown</title>
       <link>https://gohugo.io/post/markdown/</link>
       <pubDate>Sat, 13 Jul 2019 13:39:50 +0800</pubDate>
@@ -47,6 +56,15 @@
       <description>&lt;p&gt;action-value methods (Q-learning)&lt;br /&gt;
 policy-based methods (Policy gradient)&lt;br /&gt;
 Actor-critic&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sublime</title>
+      <link>https://gohugo.io/post/sublime/</link>
+      <pubDate>Sat, 13 Jul 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/sublime/</guid>
+      <description>&lt;p&gt;command&lt;/p&gt;</description>
     </item>
     
     <item>

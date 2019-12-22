@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/7/" />
-  <link rel="canonical" href="https://gohugo.io/post/7/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/sublime/" />
+  <link rel="canonical" href="https://gohugo.io/post/sublime/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,9 +17,9 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "Model free RL",
-      "headline" : "Model free RL",
-      "description" : "\x3cp\x3eaction-value methods (Q-learning)\x3cbr \/\x3e\npolicy-based methods (Policy gradient)\x3cbr \/\x3e\nActor-critic\x3c\/p\x3e",
+      "name" : "Sublime",
+      "headline" : "Sublime",
+      "description" : "\x3cp\x3ecommand\x3c\/p\x3e",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -29,16 +29,14 @@
       "copyrightYear" : "2019",
       "datePublished": "2019-07-13 13:39:50 \x2b0800 CST",
       "dateModified" : "2019-07-13 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/7\/",
+      "url" : "https:\/\/gohugo.io\/post\/sublime\/",
       "keywords" : [ "tag1","tag2", ]
   }
 </script>
-<title>Model free RL - Hugo</title>
-  <meta property="og:title" content="Model free RL - Hugo" />
+<title>Sublime - Hugo</title>
+  <meta property="og:title" content="Sublime - Hugo" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="action-value methods (Q-learning)
-policy-based methods (Policy gradient)
-Actor-critic" />
+  <meta name="description" content="command" />
 
   <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
   <link rel="stylesheet"
@@ -102,7 +100,7 @@ Actor-critic" />
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Model free RL</h1>
+          <h1 class="post-title">Sublime</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
@@ -120,33 +118,56 @@ Actor-critic" />
         </header>
 
         <div class="post-content markdown-body">
-          <p>action-value methods (Q-learning)<br />
-policy-based methods (Policy gradient)<br />
-Actor-critic</p>
+          <p>command</p>
 
-<h3 id="similarities-and-differences">Similarities and Differences</h3>
-
-<p><strong>Q-learning:</strong></p>
+<p>添加Anaconda虚拟环境
+<a href="https://damnwidget.github.io/anaconda/anaconda_settings/">Ref</a></p>
 
 <ul>
-<li>Q-learning通过学习action-value function q(s,a)间接获得策略（policy）。</li>
-</ul>
+<li><p>可以在全局中配置（任何项目默认使用全局配置中的python环境）：</p>
 
-<p><strong>Policy gradient:</strong></p>
+<p>preferences-&gt;package setting-&gt;Anaconda-&gt;setting user/setting default</p></li>
 
-<ul>
-<li>Policy gradient直接学习policy。</li>
-</ul>
-
-<p><strong>Actor-critic</strong></p>
+<li><p>(建议)也可以在具体项目中配置（任何项目优先使用项目中配置的环境，如果没有配置则使用全局配置的环境）：</p>
 
 <ul>
-<li>同时学习policy和state-value function v(s)。其中actor指policy，critic指state-value function。</li>
+<li><p>新建project，project-&gt;edit project</p>
+
+<pre><code>{
+    &quot;build_systems&quot;:
+    [
+        {
+            &quot;name&quot;: &quot;Anaconda Python Builder&quot;,
+            &quot;selector&quot;: &quot;source.python&quot;,
+            &quot;shell_cmd&quot;: &quot;/Users/xieliang/anaconda3/envs/cs294HW/bin/python -u \&quot;$file\&quot;&quot;
+        }
+    ],
+    &quot;folders&quot;:
+    [
+        {
+            &quot;follow_symlinks&quot;: true,
+            &quot;path&quot;: &quot;.&quot;
+        }
+    ],
+    &quot;settings&quot;:
+    {
+        &quot;python_interpreter&quot;: &quot;/Users/xieliang/anaconda3/envs/cs294HW/bin/python&quot;
+    }
+}
+</code></pre>
+
+<p>注意：</p></li>
+</ul></li>
+
+<li><p>由于不同项目的python环境很可能不同，故建议在项目中而不是全局配置环境</p></li>
+
+<li><p>build_systems会新建一个编译系统名字为Anaconda Python Builder，在首次编译python文件时，
+选择tools-&gt;build systems-&gt;Anaconda Python Builder</p></li>
+
+<li><p>Anaconda Python Builder只会在该project的build system中出现</p></li>
+
+<li><p>&rdquo;/Users/xieliang/anaconda3/envs/py3.6/bin/python&rdquo;是虚拟环境的路径，可在shell中通过which python查找</p></li>
 </ul>
-
-<p>Similarities see Ref. <a href="https://arxiv.org/pdf/1704.06440.pdf">Equivalence Between Policy Gradients and Soft Q-Learning</a></p>
-
-<h3 id="pros-and-cons">Pros and Cons</h3>
         </div>
 
         <div class="row middle-xs">
