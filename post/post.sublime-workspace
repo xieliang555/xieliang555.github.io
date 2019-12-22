@@ -520,10 +520,28 @@
 	"buffers":
 	[
 		{
-			"file": "1.md",
+			"file": "markdown.md",
 			"settings":
 			{
-				"buffer_size": 4325,
+				"buffer_size": 235,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sublime.md",
+			"settings":
+			{
+				"buffer_size": 1414,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hugo.md",
+			"settings":
+			{
+				"buffer_size": 2588,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -909,6 +927,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/xieliang/myBlog/content/post"
+	],
 	"file_history":
 	[
 		"/Users/xieliang/myBlog/content/post/1.md",
@@ -1073,29 +1095,89 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "1.md",
+					"file": "markdown.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4325,
+						"buffer_size": 235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
+								192,
 								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sublime.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "hugo.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1200,7 +1282,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 111.0,
+	"side_bar_width": 229.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/markdown/" />
-  <link rel="canonical" href="https://gohugo.io/post/markdown/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/pytorch/" />
+  <link rel="canonical" href="https://gohugo.io/post/pytorch/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,9 +17,9 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "Markdown",
-      "headline" : "Markdown",
-      "description" : "\x3cp\x3ecommand\x3c\/p\x3e",
+      "name" : "PyTorch常用",
+      "headline" : "PyTorch常用",
+      "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -27,16 +27,16 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2019",
-      "datePublished": "2019-07-13 13:39:50 \x2b0800 CST",
-      "dateModified" : "2019-07-13 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/markdown\/",
+      "datePublished": "2019-12-22 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-22 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/pytorch\/",
       "keywords" : [ "tag1","tag2", ]
   }
 </script>
-<title>Markdown - XieLiang</title>
-  <meta property="og:title" content="Markdown - XieLiang" />
+<title>PyTorch常用 - XieLiang</title>
+  <meta property="og:title" content="PyTorch常用 - XieLiang" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="command" />
+  <meta name="description" content="" />
 
   <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
   <link rel="stylesheet"
@@ -100,13 +100,13 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Markdown</h1>
+          <h1 class="post-title">PyTorch常用</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2019-07-13 13:39:50 CST">
-                13 Jul 2019
+              <time class="post-date" datetime="2019-12-22 13:39:50 CST">
+                22 Dec 2019
               </time>
               
             </div>
@@ -118,10 +118,63 @@
         </header>
 
         <div class="post-content markdown-body">
-          <p>command</p>
+          <blockquote>
+<p>import torch.nn as nn （对象）</p>
+</blockquote>
 
 <ul>
-<li>添加代码块:  ``` import tensorflow ```</li>
+<li>nn.Conv2d(in_channels, out_channels, kernel_size, stride=1,padding=0)</li>
+<li>nn.Dropout2d()</li>
+<li>nn.Linear(in_features, out_features)</li>
+<li>nn.ReLU()</li>
+</ul>
+
+<blockquote>
+<p>import torch.nn.functional as F (函数)</p>
+</blockquote>
+
+<ul>
+<li>F.max_pool2d(input_tensor, kernel_size)</li>
+<li>F.relu(input_tensor)</li>
+<li>F.dropout(input_tensor)</li>
+<li>F.log_softmax(input_tensor, dim=None)</li>
+<li>F.nll_loss(input_tensor, output_tensor) [negative log likelihood loss]</li>
+</ul>
+
+<blockquote>
+<p>import torch.optimal as optimal (对象)</p>
+</blockquote>
+
+<ul>
+<li>optimal.SGD(params, lr=0.01, momentum=0.9)</li>
+
+<li><p>optimal.Adam(params, le=0.001)</p>
+
+<p><strong>Note:</strong> params=model.parameters()</p></li>
+</ul>
+
+<blockquote>
+<p>其他</p>
+</blockquote>
+
+<ul>
+<li>reshape: tensor.view(shape)</li>
+<li>reshape: tensor.view(tensor)</li>
+<li>比较，相同返回1，不同返回0: tensor.eq(tensor)</li>
+<li>求和：tensor.sum()</li>
+<li>求最大值：tensor.max()</li>
+<li>获取tensor的实值：tensor.item()</li>
+</ul>
+
+<blockquote>
+<p>查询</p>
+</blockquote>
+
+<ul>
+<li>cuda是否可用：torch.cuda.is_available()</li>
+<li>返回gpu数量：torch.cuda.device_count()</li>
+<li>返回gpu名字：torch.cuda.get_device_name(0)</li>
+<li>返回当前设备索引：torch.cuda.current_device()</li>
 </ul>
         </div>
 
@@ -129,14 +182,8 @@
           <div class="col-xs-12">
             
             <div class="post-category">
-              <a href="/categories/category/">
-                category
-              </a>
-            </div>
-            
-            <div class="post-category">
-              <a href="/categories/subcategory/">
-                subcategory
+              <a href="/categories/%e8%af%ad%e8%a8%80/">
+                语言
               </a>
             </div>
             
@@ -150,11 +197,11 @@
   <h3>Related Posts</h3>
   <ul>
     
-    <li><a href="/post/pytorch/">PyTorch常用</a></li>
-    
     <li><a href="/post/9/">RL伪代码</a></li>
     
     <li><a href="/post/8/">Summary of Notation</a></li>
+    
+    <li><a href="/post/hugo/">Hugo</a></li>
     
   </ul>
 </div>

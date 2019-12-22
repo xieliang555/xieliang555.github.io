@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo</title>
+    <title>XieLiang</title>
     <link>https://gohugo.io/</link>
-    <description>Recent content on Hugo</description>
+    <description>Recent content on XieLiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 13:39:50 +0800</lastBuildDate>
     
 	<atom:link href="https://gohugo.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PyTorch常用</title>
+      <link>https://gohugo.io/post/pytorch/</link>
+      <pubDate>Sun, 22 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/pytorch/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RL伪代码</title>
