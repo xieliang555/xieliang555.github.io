@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on xieliang</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on xieliang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>category</title>
+      <link>https://example.com/categories/category/</link>
+      <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
+      
+      <guid>https://example.com/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subcategory</title>
+      <link>https://example.com/categories/subcategory/</link>
+      <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
+      
+      <guid>https://example.com/categories/subcategory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>releases</title>
+      <link>https://example.com/categories/releases/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tranquilpeak</title>
+      <link>https://example.com/categories/tranquilpeak/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/tranquilpeak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>showcase appliquée</title>
+      <link>https://example.com/categories/showcase-appliqu%C3%A9e/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/showcase-appliqu%C3%A9e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>features</title>
+      <link>https://example.com/categories/features/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/features/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
