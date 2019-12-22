@@ -102,6 +102,7 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>github theme</title>
       <link>https://gohugo.io/tags/github-theme/</link>
       <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
@@ -138,6 +139,8 @@
     </item>
     
     <item>
+=======
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
       <title>social</title>
       <link>https://gohugo.io/tags/social/</link>
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>

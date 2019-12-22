@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo</title>
@@ -8,7 +12,11 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
     
+<<<<<<< HEAD
 	<atom:link href="https://gohugo.io/index.xml" rel="self" type="application/rss+xml" />
+=======
+        <atom:link href="https://gohugo.io/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     
     
     <item>
@@ -17,7 +25,13 @@
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
       <guid>https://gohugo.io/post/9/</guid>
+<<<<<<< HEAD
       <description></description>
+=======
+      
+        <description></description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -26,7 +40,13 @@
       <pubDate>Sat, 13 Jul 2019 13:42:42 +0800</pubDate>
       
       <guid>https://gohugo.io/post/8/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;RL中的符号说明:&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;RL中的符号说明:&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -35,9 +55,17 @@
       <pubDate>Sat, 13 Jul 2019 13:39:50 +0800</pubDate>
       
       <guid>https://gohugo.io/post/7/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;action-value methods (Q-learning)&lt;br /&gt;
 policy-based methods (Policy gradient)&lt;br /&gt;
 Actor-critic&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;action-value methods (Q-learning)&lt;br /&gt;
+policy-based methods (Policy gradient)&lt;br /&gt;
+Actor-critic&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -46,7 +74,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Tue, 02 Jul 2019 15:13:52 +0800</pubDate>
       
       <guid>https://gohugo.io/post/6/</guid>
+<<<<<<< HEAD
       <description></description>
+=======
+      
+        <description></description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -55,7 +89,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Tue, 02 Jul 2019 09:02:23 +0800</pubDate>
       
       <guid>https://gohugo.io/post/5/</guid>
+<<<<<<< HEAD
       <description></description>
+=======
+      
+        <description></description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -64,7 +104,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Tue, 02 Jul 2019 08:50:01 +0800</pubDate>
       
       <guid>https://gohugo.io/post/4/</guid>
+<<<<<<< HEAD
       <description></description>
+=======
+      
+        <description></description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -73,7 +119,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Sun, 30 Jun 2019 18:16:57 +0800</pubDate>
       
       <guid>https://gohugo.io/post/3/</guid>
+<<<<<<< HEAD
       <description></description>
+=======
+      
+        <description></description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -82,7 +134,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Sat, 29 Jun 2019 14:17:10 +0800</pubDate>
       
       <guid>https://gohugo.io/post/2/</guid>
+<<<<<<< HEAD
       <description></description>
+=======
+      
+        <description></description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -91,7 +149,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/welcome-to-the-new-tranquilpeak/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;Tranquilpeak is a gorgeous responsive theme for Hugo blog framework. It has many features and integrated services to improve user experience.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -100,7 +164,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/who-is-using-tranquilpeak-hugo-theme/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;Here you can find a list of the blogs that use Tranquilpeak theme, with different styles and customizations.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;Here you can find a list of the blogs that use Tranquilpeak theme, with different styles and customizations.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -109,7 +179,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/elements-showcase/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -118,6 +194,7 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/cover-image-showcase/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;</description>
     </item>
     
@@ -137,6 +214,11 @@ Actor-critic&lt;/p&gt;</description>
       
       <guid>https://gohugo.io/post/tags-plugins-showcase/</guid>
       <description>&lt;p&gt;This post is used to show how tag plugins are displayed. See &lt;a href=&#34;https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tags&#34;&gt;docs&lt;/a&gt; for more info.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -145,7 +227,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/hidden-social-section-showcase/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -154,7 +242,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/hidden-tag-section-showcase/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;This post is used to show how a site looks if the tag section is hidden.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;This post is used to show how a site looks if the tag section is hidden.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -163,7 +257,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/hidden-pagination-showcase/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -172,7 +272,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/video-integrations-showcase/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;Youtube and Vimeo videos are easily integrated thanks to tags plugins. Of course, you can add video other platforms like dailymotion.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;Youtube and Vimeo videos are easily integrated thanks to tags plugins. Of course, you can add video other platforms like dailymotion.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -181,7 +287,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/chinese-test/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -190,7 +302,13 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/image-gallery-showcase/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;And here is the image gallery!&lt;/p&gt;</description>
+=======
+      
+        <description>&lt;p&gt;And here is the image gallery!&lt;/p&gt;</description>
+      
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     </item>
     
     <item>
@@ -199,8 +317,18 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/post/japanese-test/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;This is a Japanese test post to show you how japanese is displayed.&lt;/p&gt;</description>
     </item>
     
   </channel>
 </rss>
+=======
+      
+        <description>&lt;p&gt;This is a Japanese test post to show you how japanese is displayed.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a

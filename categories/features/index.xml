@@ -30,6 +30,7 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>highlighted code showcase</title>
       <link>https://gohugo.io/post/highlighted-code-showcase/</link>
       <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
@@ -39,6 +40,8 @@
     </item>
     
     <item>
+=======
+>>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
       <title>Hidden social section showcase</title>
       <link>https://gohugo.io/post/hidden-social-section-showcase/</link>
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
