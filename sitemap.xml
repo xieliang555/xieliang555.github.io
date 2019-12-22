@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-=======
-<?xml-stylesheet type="text/xsl" href="https://gohugo.io/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
->>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
   
   <url>
     <loc>https://gohugo.io/categories/</loc>
@@ -188,7 +183,6 @@
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>https://gohugo.io/tags/github-theme/</loc>
     <lastmod>2015-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -223,8 +217,6 @@
   </url>
   
   <url>
-=======
->>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
     <loc>https://gohugo.io/post/hidden-social-section-showcase/</loc>
     <lastmod>2014-08-17T00:00:00+00:00</lastmod>
   </url>
@@ -319,8 +311,4 @@
     <lastmod>2013-01-02T00:00:00+00:00</lastmod>
   </url>
   
-<<<<<<< HEAD
 </urlset>
-=======
-</urlset>
->>>>>>> 82b4cd200cd829f0d55cbb64dc31b4762333490a
