@@ -9,6 +9,16 @@
   </url>
   
   <url>
+    <loc>https://gohugo.io/post/hugo/</loc>
+    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/markdown/</loc>
+    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gohugo.io/post/</loc>
     <lastmod>2019-12-22T13:39:50+08:00</lastmod>
     <priority>0</priority>
@@ -16,6 +26,11 @@
   
   <url>
     <loc>https://gohugo.io/post/pytorch/</loc>
+    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/sublime/</loc>
     <lastmod>2019-12-22T13:39:50+08:00</lastmod>
   </url>
   
@@ -39,6 +54,12 @@
   
   <url>
     <loc>https://gohugo.io/tags/tag2/</loc>
+    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2019-12-22T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -72,22 +93,7 @@
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/hugo/</loc>
-    <lastmod>2019-07-13T13:39:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/post/markdown/</loc>
-    <lastmod>2019-07-13T13:39:50+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gohugo.io/post/7/</loc>
-    <lastmod>2019-07-13T13:39:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/post/sublime/</loc>
     <lastmod>2019-07-13T13:39:50+08:00</lastmod>
   </url>
   
