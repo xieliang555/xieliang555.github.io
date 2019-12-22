@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tag2 on Hugo tranquilpeak theme</title>
-    <link>https://example.org/tags/tag2/</link>
-    <description>Recent content in tag2 on Hugo tranquilpeak theme</description>
+    <title>tag2 on </title>
+    <link>/tags/tag2/</link>
+    <description>Recent content in tag2 on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>
     
-	<atom:link href="https://example.org/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RL伪代码</title>
-      <link>https://example.org/2019/07/rl%E4%BC%AA%E4%BB%A3%E7%A0%81/</link>
+      <link>/post/9/</link>
       <pubDate>Fri, 26 Jul 2019 16:49:13 +0800</pubDate>
       
-      <guid>https://example.org/2019/07/rl%E4%BC%AA%E4%BB%A3%E7%A0%81/</guid>
+      <guid>/post/9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Summary of Notation</title>
-      <link>https://example.org/2019/07/summary-of-notation/</link>
+      <link>/post/8/</link>
       <pubDate>Sat, 13 Jul 2019 13:42:42 +0800</pubDate>
       
-      <guid>https://example.org/2019/07/summary-of-notation/</guid>
+      <guid>/post/8/</guid>
       <description>&lt;p&gt;RL中的符号说明:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Model free RL</title>
-      <link>https://example.org/2019/07/model-free-rl/</link>
+      <link>/post/7/</link>
       <pubDate>Sat, 13 Jul 2019 13:39:50 +0800</pubDate>
       
-      <guid>https://example.org/2019/07/model-free-rl/</guid>
+      <guid>/post/7/</guid>
       <description>&lt;p&gt;action-value methods (Q-learning)&lt;br /&gt;
 policy-based methods (Policy gradient)&lt;br /&gt;
 Actor-critic&lt;/p&gt;</description>
@@ -42,46 +41,46 @@ Actor-critic&lt;/p&gt;</description>
     
     <item>
       <title>Exploration</title>
-      <link>https://example.org/2019/07/exploration/</link>
+      <link>/post/6/</link>
       <pubDate>Tue, 02 Jul 2019 15:13:52 +0800</pubDate>
       
-      <guid>https://example.org/2019/07/exploration/</guid>
+      <guid>/post/6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Actor-critic</title>
-      <link>https://example.org/2019/07/actor-critic/</link>
+      <link>/post/5/</link>
       <pubDate>Tue, 02 Jul 2019 09:02:23 +0800</pubDate>
       
-      <guid>https://example.org/2019/07/actor-critic/</guid>
+      <guid>/post/5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Q-learning</title>
-      <link>https://example.org/2019/07/q-learning/</link>
+      <link>/post/4/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:01 +0800</pubDate>
       
-      <guid>https://example.org/2019/07/q-learning/</guid>
+      <guid>/post/4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Policy Gradient with Baseline</title>
-      <link>https://example.org/2019/06/policy-gradient-with-baseline/</link>
+      <link>/post/3/</link>
       <pubDate>Sun, 30 Jun 2019 18:16:57 +0800</pubDate>
       
-      <guid>https://example.org/2019/06/policy-gradient-with-baseline/</guid>
+      <guid>/post/3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Policy Gradient公式背后的直观解释</title>
-      <link>https://example.org/2019/06/policy-gradient%E5%85%AC%E5%BC%8F%E8%83%8C%E5%90%8E%E7%9A%84%E7%9B%B4%E8%A7%82%E8%A7%A3%E9%87%8A/</link>
+      <link>/post/2/</link>
       <pubDate>Sat, 29 Jun 2019 14:17:10 +0800</pubDate>
       
-      <guid>https://example.org/2019/06/policy-gradient%E5%85%AC%E5%BC%8F%E8%83%8C%E5%90%8E%E7%9A%84%E7%9B%B4%E8%A7%82%E8%A7%A3%E9%87%8A/</guid>
+      <guid>/post/2/</guid>
       <description></description>
     </item>
     
