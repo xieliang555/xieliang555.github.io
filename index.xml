@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>xieliang</title>
     <link>https://example.com/</link>
     <description>Recent content on xieliang</description>
+=======
+    <title>Example YinYong Blog</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Example YinYong Blog</description>
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2019 16:49:13 +0800</lastBuildDate>

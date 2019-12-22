@@ -18,32 +18,56 @@
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://example.com/cn/tags/</loc>
+=======
+    <loc>https://example.com/cn/</loc>
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="https://example.com/tags/"
+=======
+                href="https://example.com/"
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
+<<<<<<< HEAD
                 href="https://example.com/cn/tags/"
+=======
+                href="https://example.com/cn/"
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
                 />
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://example.com/cn/</loc>
+=======
+    <loc>https://example.com/cn/tags/</loc>
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="https://example.com/"
+=======
+                href="https://example.com/tags/"
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
+<<<<<<< HEAD
                 href="https://example.com/cn/"
+=======
+                href="https://example.com/cn/tags/"
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
                 />
   </url>
   

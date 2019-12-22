@@ -19,6 +19,25 @@
   </url>
   
   <url>
+<<<<<<< HEAD
+=======
+    <loc>https://example.com/</loc>
+    <lastmod>2019-07-26T16:49:13+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://example.com/cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/"
+                />
+  </url>
+  
+  <url>
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
     <loc>https://example.com/9/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
   </url>
@@ -64,6 +83,7 @@
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://example.com/</loc>
     <lastmod>2019-07-26T16:49:13+08:00</lastmod>
     <priority>0</priority>
@@ -80,6 +100,8 @@
   </url>
   
   <url>
+=======
+>>>>>>> 41983b8899c92ccaee44699df9fb3234f248db79
     <loc>https://example.com/8/</loc>
     <lastmod>2019-07-13T13:42:42+08:00</lastmod>
   </url>
