@@ -4,7 +4,48 @@
   
   <url>
     <loc>https://gohugo.io/categories/</loc>
-    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
+    <lastmod>2019-12-23T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/</loc>
+    <lastmod>2019-12-23T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/python/</loc>
+    <lastmod>2019-12-23T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tags/</loc>
+    <lastmod>2019-12-23T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/</loc>
+    <lastmod>2019-12-23T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tags/tag1/</loc>
+    <lastmod>2019-12-23T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tags/tag2/</loc>
+    <lastmod>2019-12-23T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/%E8%AF%AD%E8%A8%80/</loc>
+    <lastmod>2019-12-23T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19,12 +60,6 @@
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/</loc>
-    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://gohugo.io/post/pytorch/</loc>
     <lastmod>2019-12-22T13:39:50+08:00</lastmod>
   </url>
@@ -35,37 +70,7 @@
   </url>
   
   <url>
-    <loc>https://gohugo.io/tags/</loc>
-    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/</loc>
-    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/tags/tag1/</loc>
-    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/tags/tag2/</loc>
-    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://gohugo.io/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/categories/%E8%AF%AD%E8%A8%80/</loc>
     <lastmod>2019-12-22T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -115,11 +120,6 @@
   <url>
     <loc>https://gohugo.io/post/3/</loc>
     <lastmod>2019-06-30T18:16:57+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/post/2/</loc>
-    <lastmod>2019-06-29T14:17:10+08:00</lastmod>
   </url>
   
   <url>

@@ -6,10 +6,19 @@
     <description>Recent content in tag1 on XieLiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2019 13:39:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 13:39:50 +0800</lastBuildDate>
     
 	<atom:link href="https://gohugo.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python</title>
+      <link>https://gohugo.io/post/python/</link>
+      <pubDate>Mon, 23 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
@@ -30,7 +39,7 @@
     </item>
     
     <item>
-      <title>PyTorch常用</title>
+      <title>PyTorch</title>
       <link>https://gohugo.io/post/pytorch/</link>
       <pubDate>Sun, 22 Dec 2019 13:39:50 +0800</pubDate>
       
@@ -44,7 +53,7 @@
       <pubDate>Sun, 22 Dec 2019 13:39:50 +0800</pubDate>
       
       <guid>https://gohugo.io/post/sublime/</guid>
-      <description>&lt;p&gt;command&lt;/p&gt;</description>
+      <description></description>
     </item>
     
     <item>
@@ -109,15 +118,6 @@ Actor-critic&lt;/p&gt;</description>
       <pubDate>Sun, 30 Jun 2019 18:16:57 +0800</pubDate>
       
       <guid>https://gohugo.io/post/3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Policy Gradient公式背后的直观解释</title>
-      <link>https://gohugo.io/post/2/</link>
-      <pubDate>Sat, 29 Jun 2019 14:17:10 +0800</pubDate>
-      
-      <guid>https://gohugo.io/post/2/</guid>
       <description></description>
     </item>
     

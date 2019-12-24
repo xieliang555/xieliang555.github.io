@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/5/" />
-  <link rel="canonical" href="https://gohugo.io/post/5/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/python/" />
+  <link rel="canonical" href="https://gohugo.io/post/python/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,8 +17,8 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "Actor-critic",
-      "headline" : "Actor-critic",
+      "name" : "Python",
+      "headline" : "Python",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -27,14 +27,14 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2019",
-      "datePublished": "2019-07-02 09:02:23 \x2b0800 CST",
-      "dateModified" : "2019-07-02 09:02:23 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/5\/",
+      "datePublished": "2019-12-23 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-23 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/python\/",
       "keywords" : [ "tag1","tag2", ]
   }
 </script>
-<title>Actor-critic - XieLiang</title>
-  <meta property="og:title" content="Actor-critic - XieLiang" />
+<title>Python - XieLiang</title>
+  <meta property="og:title" content="Python - XieLiang" />
   <meta property="og:type" content="article" />
   <meta name="description" content="" />
 
@@ -100,13 +100,13 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Actor-critic</h1>
+          <h1 class="post-title">Python</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2019-07-02 09:02:23 CST">
-                02 Jul 2019
+              <time class="post-date" datetime="2019-12-23 13:39:50 CST">
+                23 Dec 2019
               </time>
               
             </div>
@@ -118,21 +118,90 @@
         </header>
 
         <div class="post-content markdown-body">
-          
+          <blockquote>
+<p>文件结构</p>
+</blockquote>
+
+<ul>
+<li>module: 模块，具有独立功能，函数或类构成的module.py文件，通过import导入，通过module.func() 调用</li>
+<li>Package: 相关模块的集合，结构：
+
+<ul>
+<li>package
+
+<ul>
+<li><strong>init</strong>.py</li>
+<li>&ndash; module1.py</li>
+<li>&ndash; module2.py</li>
+</ul></li>
+</ul></li>
+<li>Library:： 相关模块的集合</li>
+<li>包，库，模块三个概念都是指模块，只是个体和集合的区别</li>
+<li>依赖：包（库）与包（库）之间的引用关系</li>
+</ul>
+
+<blockquote>
+<p>常用函数：</p>
+</blockquote>
+
+<ul>
+<li><p>字符串</p>
+
+<ul>
+<li>str.repalce(char, char)</li>
+<li>Str.split(char)</li>
+</ul></li>
+
+<li><p>文件</p>
+
+<ul>
+<li>open(file_path, ‘r’, encoding=‘utf-8’)</li>
+<li>f.read()</li>
+</ul></li>
+
+<li><p>基本数据结构</p>
+
+<ul>
+<li>dict()</li>
+<li>dict.items()</li>
+<li>dict.keys()</li>
+<li>dict.values()</li>
+<li>dict.get()</li>
+<li>list.insert()</li>
+<li>list反转：[::-1]</li>
+<li>List.extend()</li>
+</ul></li>
+
+<li><p>路径</p>
+
+<ul>
+<li>os.getcwd() 获取当前工作路径</li>
+<li>os.path.join(root, relative_path) 获取指定路径</li>
+</ul></li>
+
+<li><p>其他</p>
+
+<ul>
+<li>enumerate</li>
+<li>zip</li>
+<li>copy <a href="https://www.cnblogs.com/nmap/p/9315970.html">ref</a></li>
+<li>iter()</li>
+<li>next()</li>
+<li>type()</li>
+</ul></li>
+</ul>
+
+<p>Python脚本执行方式（查找文件的路径不一样）：
+1. python file.py 运行当前路径下的file.py文件
+2. python -m file.py 将已安装的模块当脚本运行</p>
         </div>
 
         <div class="row middle-xs">
           <div class="col-xs-12">
             
             <div class="post-category">
-              <a href="/categories/category/">
-                category
-              </a>
-            </div>
-            
-            <div class="post-category">
-              <a href="/categories/subcategory/">
-                subcategory
+              <a href="/categories/%e8%af%ad%e8%a8%80/">
+                语言
               </a>
             </div>
             
@@ -146,11 +215,11 @@
   <h3>Related Posts</h3>
   <ul>
     
-    <li><a href="/post/python/">Python</a></li>
-    
     <li><a href="/post/hugo/">Hugo</a></li>
     
     <li><a href="/post/markdown/">Markdown</a></li>
+    
+    <li><a href="/post/pytorch/">PyTorch</a></li>
     
   </ul>
 </div>
