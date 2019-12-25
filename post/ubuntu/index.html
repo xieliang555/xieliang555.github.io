@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/markdown/" />
-  <link rel="canonical" href="https://gohugo.io/post/markdown/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/ubuntu/" />
+  <link rel="canonical" href="https://gohugo.io/post/ubuntu/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,9 +17,9 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "Markdown",
-      "headline" : "Markdown",
-      "description" : "\x3cp\x3ecommand\x3c\/p\x3e",
+      "name" : "Ubuntu",
+      "headline" : "Ubuntu",
+      "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -27,16 +27,16 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2019",
-      "datePublished": "2019-12-22 13:39:50 \x2b0800 CST",
-      "dateModified" : "2019-12-22 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/markdown\/",
+      "datePublished": "2019-12-25 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-25 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/ubuntu\/",
       "keywords" : [ "tag1","tag2", ]
   }
 </script>
-<title>Markdown - XieLiang</title>
-  <meta property="og:title" content="Markdown - XieLiang" />
+<title>Ubuntu - XieLiang</title>
+  <meta property="og:title" content="Ubuntu - XieLiang" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="command" />
+  <meta name="description" content="" />
 
   <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
   <link rel="stylesheet"
@@ -100,13 +100,13 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Markdown</h1>
+          <h1 class="post-title">Ubuntu</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2019-12-22 13:39:50 CST">
-                22 Dec 2019
+              <time class="post-date" datetime="2019-12-25 13:39:50 CST">
+                25 Dec 2019
               </time>
               
             </div>
@@ -118,10 +118,41 @@
         </header>
 
         <div class="post-content markdown-body">
-          <p>command</p>
+          <blockquote>
+<p>安装</p>
+</blockquote>
+
+<p>[<a href="http://baijiahao.baidu.com/s?id=1647623092284651351&amp;wfr=spider&amp;for=pc">分区模式和启动方式转换</a>]
+[<a href="https://www.jianshu.com/p/38e6be8efecf">双系统安装</a>]</p>
 
 <ul>
-<li>添加代码块:  ``` import tensorflow ```</li>
+<li><p>制作U盘启动盘：查看系统的启动方式和分区模式</p>
+
+<ul>
+<li>UEFI启动+GTP（guid）分区</li>
+<li>传统Legacy BIOS启动+MBR分区</li>
+<li>可通过第三方分区软件（傲梅）将GPT和MBR分区无损转换，然后在在bios中将legacy启动设为UEFI启动</li>
+</ul></li>
+
+<li><p>创建硬盘空白分区：我的电脑-管理-磁盘管理，制作安装ubuntu的空白分区</p></li>
+
+<li><p>关闭win10的快速启动和安全启动</p>
+
+<ul>
+<li>关闭快速启动：电源与睡眠 -&gt; 其他电源设置 -&gt; 选择电源按钮的功能 -&gt; 更改当前不可用的设置 -&gt;取消快速启动 （也可在bios中更改）</li>
+<li>关闭安全启动：开机按F2或DEL， 进入BIOS模式 -&gt; 选择security -&gt; secure boot 设置成disable -&gt; 在boot选项查看快速启动是否关闭 （为了通过u盘启动）[无线键盘可能无法进入bios]</li>
+<li>安装ubuntu：开机按F12，选项U盘启动方式 [或者在bios中设置启动顺序]</li>
+<li>检测到这台电脑已经安装了windows boot manager后，选择其他选项</li>
+<li>分区：选择空闲的空间，继续分区，swap+/
+
+<ul>
+<li>Swap交换空间：内存大小的1～1.5倍。逻辑分区+空间起始位置</li>
+<li>其余的分给 / 。 逻辑分区+空间起始位置+ext4日志文件系统</li>
+</ul></li>
+<li>将启动引导器安装在和/一样的位置中</li>
+</ul>
+
+<p><strong>注意</strong>： 先安装windows，后安装ubuntu，由ubuntu引导windows启动（不能在window下直接格式化ubuntu系统）</p></li>
 </ul>
         </div>
 
@@ -144,11 +175,11 @@
   <h3>Related Posts</h3>
   <ul>
     
-    <li><a href="/post/ubuntu/">Ubuntu</a></li>
-    
     <li><a href="/post/python/">Python</a></li>
     
     <li><a href="/post/hugo/">Hugo</a></li>
+    
+    <li><a href="/post/markdown/">Markdown</a></li>
     
   </ul>
 </div>

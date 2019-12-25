@@ -6,10 +6,19 @@
     <description>Recent content on XieLiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2019 13:39:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2019 13:39:50 +0800</lastBuildDate>
     
 	<atom:link href="https://gohugo.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://gohugo.io/post/ubuntu/</link>
+      <pubDate>Wed, 25 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/ubuntu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Python</title>
