@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/pytorch/" />
-  <link rel="canonical" href="https://gohugo.io/post/pytorch/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/win_ubuntu/" />
+  <link rel="canonical" href="https://gohugo.io/post/win_ubuntu/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,8 +17,8 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "PyTorch",
-      "headline" : "PyTorch",
+      "name" : "Win10\x2bUbuntu",
+      "headline" : "Win10\x2bUbuntu",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -27,14 +27,14 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2019",
-      "datePublished": "2019-12-22 13:39:50 \x2b0800 CST",
-      "dateModified" : "2019-12-22 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/pytorch\/",
+      "datePublished": "2019-12-25 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-25 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/win_ubuntu\/",
       "keywords" : [ "tag1","tag2", ]
   }
 </script>
-<title>PyTorch - XieLiang</title>
-  <meta property="og:title" content="PyTorch - XieLiang" />
+<title>Win10&#43;Ubuntu - XieLiang</title>
+  <meta property="og:title" content="Win10&#43;Ubuntu - XieLiang" />
   <meta property="og:type" content="article" />
   <meta name="description" content="" />
 
@@ -100,13 +100,13 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">PyTorch</h1>
+          <h1 class="post-title">Win10&#43;Ubuntu</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2019-12-22 13:39:50 CST">
-                22 Dec 2019
+              <time class="post-date" datetime="2019-12-25 13:39:50 CST">
+                25 Dec 2019
               </time>
               
             </div>
@@ -119,129 +119,61 @@
 
         <div class="post-content markdown-body">
           <blockquote>
-<p>查询</p>
+<p>安装</p>
 </blockquote>
 
 <ul>
-<li>cuda是否可用：torch.cuda.is_available()</li>
-<li>返回gpu数量：torch.cuda.device_count()</li>
-<li>返回gpu名字：torch.cuda.get_device_name(0)</li>
-<li>返回当前设备索引：torch.cuda.current_device()</li>
-</ul>
-
-<blockquote>
-<p>from torchvision import transforms (Module -&gt; class)</p>
-</blockquote>
+<li><p>制作U盘启动盘：查看系统的启动方式和分区模式</p>
 
 <ul>
-<li>transforms.Compose()</li>
-<li>transforms.RandomResizedCrop() 样本大小必须一样</li>
-<li>transforms.ToTensor() 样本必须转为Tensor</li>
-</ul>
+<li>UEFI启动+GTP（guid）分区</li>
+<li>传统Legacy BIOS启动+MBR分区</li>
+<li>可通过<a href="http://baijiahao.baidu.com/s?id=1647623092284651351&amp;wfr=spider&amp;for=pc">第三方分区软件</a>将GPT和MBR分区无损转换，然后在在bios中将legacy启动设为UEFI启动</li>
+</ul></li>
 
-<blockquote>
-<p>from torchvision import datasets (Module -&gt; class)</p>
-</blockquote>
+<li><p>创建硬盘空白分区：我的电脑-管理-磁盘管理，制作安装ubuntu的空白分区</p></li>
 
-<ul>
-<li>datasets.ImageFolder(root, transform=None)  need to arrange the folder manually</li>
-<li>datasets.MNIST(root, train=True, Transform=None, download=False)</li>
-</ul>
-
-<blockquote>
-<p>import torch.utils.data (Module -&gt; class)</p>
-</blockquote>
+<li><p>关闭win10的快速启动和安全启动</p>
 
 <ul>
-<li>data.DataLoader(dataset_object, batch_size=1, shuffle=False, num_workers=0)</li>
-</ul>
-
-<blockquote>
-<p>from torchvision import models (Module -&gt; class)</p>
-</blockquote>
-
-<ul>
-<li>models.resnet18(pretrain=True)</li>
-<li>(object -&gt; function)
+<li>关闭快速启动：电源与睡眠 -&gt; 其他电源设置 -&gt; 选择电源按钮的功能 -&gt; 更改当前不可用的设置 -&gt;取消快速启动 （也可在bios中更改）</li>
+<li>关闭安全启动：开机按F2或DEL， 进入BIOS模式 -&gt; 选择security -&gt; secure boot 设置成disable -&gt; 在boot选项查看快速启动是否关闭 （为了通过u盘启动）[无线键盘可能无法进入bios]</li>
+<li>安装ubuntu：开机按F12，选项U盘启动方式 [或者在bios中设置启动顺序]</li>
+<li>检测到这台电脑已经安装了windows boot manager后，选择其他选项</li>
+<li>分区：选择空闲的空间，继续分区，swap+/
 
 <ul>
-<li>model.train()</li>
-<li>model.eval()</li>
-<li>model.parameters()</li>
-<li>model.state_dict()</li>
-<li>model.load_state_dict()</li>
+<li>Swap交换空间：内存大小的1～1.5倍。逻辑分区+空间起始位置</li>
+<li>其余的分给 / 。 逻辑分区+空间起始位置+ext4日志文件系统</li>
+</ul></li>
+<li>将启动引导器安装在和/一样的位置中</li>
+</ul></li>
+
+<li><p>如果需要<a href="https://blog.csdn.net/jiajinrang93/article/details/63892208">重新安装</a>，不要直接从window下格式化（可能会导致无法启动windoes），重新从u盘启动，进入到分区界面，将之前Ubuntu分区的通过减号“-”去除，然后通过加号”+“重新添加分区，要卸载ubuntu也是通过这种方法。</p>
+
+<p><strong>注意</strong>：</p>
+
+<ul>
+<li>先安装windows，后安装ubuntu，由ubuntu引导windows启动（不能在window下直接格式化ubuntu系统）</li>
+<li>ubuntu和windows可以同时安装在同一块硬盘中</li>
 </ul></li>
 </ul>
 
-<blockquote>
-<p>import torch.nn as nn （Module -&gt; class）</p>
-</blockquote>
-
-<ul>
-<li>nn.Conv2d(in_channels, out_channels, kernel_size, stride=1,padding=0)</li>
-<li>nn.Dropout2d()</li>
-<li>nn.Linear(in_features, out_features)</li>
-<li>nn.ReLU()</li>
-</ul>
-
-<blockquote>
-<p>import torch.nn.functional as F (Module -&gt; function)</p>
-</blockquote>
-
-<ul>
-<li>F.max_pool2d(input_tensor, kernel_size)</li>
-<li>F.relu(input_tensor)</li>
-<li>F.dropout(input_tensor)</li>
-<li>F.log_softmax(input_tensor, dim=None)</li>
-<li>F.nll_loss(input_tensor, output_tensor) [negative log likelihood loss]</li>
-</ul>
-
-<blockquote>
-<p>import torch.optimal as optimal (Module -&gt; object)</p>
-</blockquote>
-
-<ul>
-<li>optimal.SGD(params, lr=0.01, momentum=0.9)</li>
-
-<li><p>optimal.Adam(params, le=0.001)</p>
-
-<p><strong>Note:</strong> params=model.parameters()</p></li>
-</ul>
-
-<blockquote>
-<p>torch.tensor</p>
-</blockquote>
-
-<ul>
-<li>reshape: tensor.view(shape)</li>
-<li>reshape: tensor.view(tensor)</li>
-<li>比较，相同返回1，不同返回0: tensor.eq(tensor)</li>
-<li>求和：tensor.sum()</li>
-<li>求最大值：tensor.max(dim=None, keepdim=False)[0]</li>
-<li>求最大值下标： tensor.max(dim=None, keepdim=False)[1]</li>
-<li>获取tensor的实值：tensor.item()</li>
-<li>获取tensor的shape: tensor.size()</li>
-</ul>
-
-<blockquote>
-<p>其他</p>
-</blockquote>
-
-<ul>
-<li>optimizer.zero_grad()</li>
-<li>loss.backward() 计算梯度</li>
-<li>optimizer.step() 更新梯度</li>
-<li>len(train_loader.dataset) 整个训练集样本个数</li>
-<li>len(train_loader) 整个训练集的batch个数</li>
-</ul>
+<p>[<a href="https://www.jianshu.com/p/38e6be8efecf">参考</a>]</p>
         </div>
 
         <div class="row middle-xs">
           <div class="col-xs-12">
             
             <div class="post-category">
-              <a href="/categories/%e8%af%ad%e8%a8%80/">
-                语言
+              <a href="/categories/%e5%ae%89%e8%a3%85/">
+                安装
+              </a>
+            </div>
+            
+            <div class="post-category">
+              <a href="/categories/%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f/">
+                操作系统
               </a>
             </div>
             

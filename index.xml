@@ -6,17 +6,53 @@
     <description>Recent content on XieLiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Dec 2019 13:39:50 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 13:39:50 +0800</lastBuildDate>
     
 	<atom:link href="https://gohugo.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ubuntu</title>
-      <link>https://gohugo.io/post/ubuntu/</link>
+      <title>Cuda</title>
+      <link>https://gohugo.io/post/cuda/</link>
+      <pubDate>Thu, 26 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/cuda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://gohugo.io/post/git/</link>
+      <pubDate>Thu, 26 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anaconda</title>
+      <link>https://gohugo.io/post/anaconda/</link>
       <pubDate>Wed, 25 Dec 2019 13:39:50 +0800</pubDate>
       
-      <guid>https://gohugo.io/post/ubuntu/</guid>
+      <guid>https://gohugo.io/post/anaconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://gohugo.io/post/linux/</link>
+      <pubDate>Wed, 25 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Win10&#43;Ubuntu</title>
+      <link>https://gohugo.io/post/win_ubuntu/</link>
+      <pubDate>Wed, 25 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/win_ubuntu/</guid>
       <description></description>
     </item>
     

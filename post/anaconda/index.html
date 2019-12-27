@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/pytorch/" />
-  <link rel="canonical" href="https://gohugo.io/post/pytorch/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/anaconda/" />
+  <link rel="canonical" href="https://gohugo.io/post/anaconda/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,8 +17,8 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "PyTorch",
-      "headline" : "PyTorch",
+      "name" : "Anaconda",
+      "headline" : "Anaconda",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -27,14 +27,14 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2019",
-      "datePublished": "2019-12-22 13:39:50 \x2b0800 CST",
-      "dateModified" : "2019-12-22 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/pytorch\/",
+      "datePublished": "2019-12-25 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-25 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/anaconda\/",
       "keywords" : [ "tag1","tag2", ]
   }
 </script>
-<title>PyTorch - XieLiang</title>
-  <meta property="og:title" content="PyTorch - XieLiang" />
+<title>Anaconda - XieLiang</title>
+  <meta property="og:title" content="Anaconda - XieLiang" />
   <meta property="og:type" content="article" />
   <meta name="description" content="" />
 
@@ -100,13 +100,13 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">PyTorch</h1>
+          <h1 class="post-title">Anaconda</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2019-12-22 13:39:50 CST">
-                22 Dec 2019
+              <time class="post-date" datetime="2019-12-25 13:39:50 CST">
+                25 Dec 2019
               </time>
               
             </div>
@@ -119,120 +119,92 @@
 
         <div class="post-content markdown-body">
           <blockquote>
+<p>虚拟环境</p>
+</blockquote>
+
+<ul>
+<li>创建虚拟环境： conda create -n EnvName python=3.6</li>
+<li>删除虚拟环境：conda remove -n EnvName —-all</li>
+<li>重命名环境：
+
+<ul>
+<li>conda create -n NewEnvName &ndash;clone oldEnvName</li>
+<li>conda remove -n OldEnvName &ndash;all</li>
+</ul></li>
+<li>查看虚拟环境：conda env list</li>
+</ul>
+
+<blockquote>
+<p>安装</p>
+</blockquote>
+
+<ul>
+<li>三方库的两种安装方式
+
+<ul>
+<li>利用pip或conda在线安装</li>
+<li>通过wheel离线安装</li>
+</ul></li>
+<li>开源代码的两种安装方式。无论哪一种安装方式，都最好先创建虚拟环境，因为安装时需要安装依赖包（库）
+
+<ul>
+<li>利用pip或者conda通过wheel安装</li>
+<li>从source（源代码）安装。如果是项目最好从source安装，1)可以看到源代码。2) 可以在项目基础上更方便修改（如spinningUp，cs294HW  避免使用命令行而直接使用sublime给定参数）</li>
+</ul></li>
+<li>更新pip:          pip install —upgrade pip</li>
+<li>忽略已安装的库：      pip install —ignore-installed PkgName</li>
+<li>安装指定版本库：conda install pkg=1.0.1 / pip install Pkg==1.0.4</li>
+<li>更新pkg： pip install —upgrade pkg</li>
+<li>通过python脚本安装包： pip install -e . 执行当前目录下的setup.py脚本</li>
+<li>通过txt文件安装包：pip install -r &ldquo;requirements.txt&rdquo;
+
+<ul>
+<li>gym==0.10.5</li>
+<li>mujoco-py &gt;=1.50.1.56</li>
+<li>tensorflow</li>
+<li>numpy</li>
+<li>seaborn</li>
+</ul></li>
+<li>临时更改镜像源：pip install -i <url> Pkg</li>
+</ul>
+
+<blockquote>
 <p>查询</p>
 </blockquote>
 
 <ul>
-<li>cuda是否可用：torch.cuda.is_available()</li>
-<li>返回gpu数量：torch.cuda.device_count()</li>
-<li>返回gpu名字：torch.cuda.get_device_name(0)</li>
-<li>返回当前设备索引：torch.cuda.current_device()</li>
+<li>查询已安装的库：conda list / pip list</li>
+<li>查询python位置：which python</li>
+<li>查询python命令：python -h</li>
+<li>查询conda命令：conda -h</li>
 </ul>
 
 <blockquote>
-<p>from torchvision import transforms (Module -&gt; class)</p>
+<p>镜像源</p>
 </blockquote>
 
 <ul>
-<li>transforms.Compose()</li>
-<li>transforms.RandomResizedCrop() 样本大小必须一样</li>
-<li>transforms.ToTensor() 样本必须转为Tensor</li>
-</ul>
-
-<blockquote>
-<p>from torchvision import datasets (Module -&gt; class)</p>
-</blockquote>
+<li>pip源
 
 <ul>
-<li>datasets.ImageFolder(root, transform=None)  need to arrange the folder manually</li>
-<li>datasets.MNIST(root, train=True, Transform=None, download=False)</li>
-</ul>
+<li>在home目录新建文件夹pip</li>
 
-<blockquote>
-<p>import torch.utils.data (Module -&gt; class)</p>
-</blockquote>
+<li><p>在pip文件夹下新建文件pip.ini，并输入</p>
 
-<ul>
-<li>data.DataLoader(dataset_object, batch_size=1, shuffle=False, num_workers=0)</li>
-</ul>
-
-<blockquote>
-<p>from torchvision import models (Module -&gt; class)</p>
-</blockquote>
-
-<ul>
-<li>models.resnet18(pretrain=True)</li>
-<li>(object -&gt; function)
-
-<ul>
-<li>model.train()</li>
-<li>model.eval()</li>
-<li>model.parameters()</li>
-<li>model.state_dict()</li>
-<li>model.load_state_dict()</li>
+<pre><code>[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+[install]
+trusted-host=mirrors.aliyun.com
+</code></pre></li>
 </ul></li>
-</ul>
-
-<blockquote>
-<p>import torch.nn as nn （Module -&gt; class）</p>
-</blockquote>
+<li>conda源 （执行以下命令行会在home目录自动创建.condarc文件）
 
 <ul>
-<li>nn.Conv2d(in_channels, out_channels, kernel_size, stride=1,padding=0)</li>
-<li>nn.Dropout2d()</li>
-<li>nn.Linear(in_features, out_features)</li>
-<li>nn.ReLU()</li>
-</ul>
-
-<blockquote>
-<p>import torch.nn.functional as F (Module -&gt; function)</p>
-</blockquote>
-
-<ul>
-<li>F.max_pool2d(input_tensor, kernel_size)</li>
-<li>F.relu(input_tensor)</li>
-<li>F.dropout(input_tensor)</li>
-<li>F.log_softmax(input_tensor, dim=None)</li>
-<li>F.nll_loss(input_tensor, output_tensor) [negative log likelihood loss]</li>
-</ul>
-
-<blockquote>
-<p>import torch.optimal as optimal (Module -&gt; object)</p>
-</blockquote>
-
-<ul>
-<li>optimal.SGD(params, lr=0.01, momentum=0.9)</li>
-
-<li><p>optimal.Adam(params, le=0.001)</p>
-
-<p><strong>Note:</strong> params=model.parameters()</p></li>
-</ul>
-
-<blockquote>
-<p>torch.tensor</p>
-</blockquote>
-
-<ul>
-<li>reshape: tensor.view(shape)</li>
-<li>reshape: tensor.view(tensor)</li>
-<li>比较，相同返回1，不同返回0: tensor.eq(tensor)</li>
-<li>求和：tensor.sum()</li>
-<li>求最大值：tensor.max(dim=None, keepdim=False)[0]</li>
-<li>求最大值下标： tensor.max(dim=None, keepdim=False)[1]</li>
-<li>获取tensor的实值：tensor.item()</li>
-<li>获取tensor的shape: tensor.size()</li>
-</ul>
-
-<blockquote>
-<p>其他</p>
-</blockquote>
-
-<ul>
-<li>optimizer.zero_grad()</li>
-<li>loss.backward() 计算梯度</li>
-<li>optimizer.step() 更新梯度</li>
-<li>len(train_loader.dataset) 整个训练集样本个数</li>
-<li>len(train_loader) 整个训练集的batch个数</li>
+<li>conda config —add channels</li>
+<li>conda config —add channels</li>
+<li>conda config —set show_channel_urls</li>
+</ul></li>
+<li>查看conda源： conda config &ndash;show</li>
 </ul>
         </div>
 
@@ -240,8 +212,8 @@
           <div class="col-xs-12">
             
             <div class="post-category">
-              <a href="/categories/%e8%af%ad%e8%a8%80/">
-                语言
+              <a href="/categories/%e5%b7%a5%e5%85%b7/">
+                工具
               </a>
             </div>
             
@@ -259,7 +231,7 @@
     
     <li><a href="/post/git/">Git</a></li>
     
-    <li><a href="/post/anaconda/">Anaconda</a></li>
+    <li><a href="/post/linux/">Linux</a></li>
     
   </ul>
 </div>

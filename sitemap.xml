@@ -4,47 +4,97 @@
   
   <url>
     <loc>https://gohugo.io/categories/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://gohugo.io/post/cuda/</loc>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/git/</loc>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gohugo.io/post/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gohugo.io/tags/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/ubuntu/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gohugo.io/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gohugo.io/tags/tag1/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gohugo.io/tags/tag2/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gohugo.io/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2019-12-26T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/anaconda/</loc>
+    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/linux/</loc>
+    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/macos/</loc>
+    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/ubuntu/</loc>
+    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/win_ubuntu/</loc>
+    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2019-12-25T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
