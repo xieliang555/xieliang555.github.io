@@ -6,10 +6,19 @@
     <description>Recent content on XieLiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2019 13:39:50 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2019 13:39:50 +0800</lastBuildDate>
     
 	<atom:link href="https://gohugo.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Open Source</title>
+      <link>https://gohugo.io/post/opensource/</link>
+      <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/opensource/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cuda</title>
@@ -53,15 +62,6 @@
       <pubDate>Wed, 25 Dec 2019 13:39:50 +0800</pubDate>
       
       <guid>https://gohugo.io/post/win_ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://gohugo.io/post/opensource/</link>
-      <pubDate>Mon, 23 Dec 2019 13:39:50 +0800</pubDate>
-      
-      <guid>https://gohugo.io/post/opensource/</guid>
       <description></description>
     </item>
     
