@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Note</title>
+      <link>https://gohugo.io/post/note/</link>
+      <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Open Source</title>
       <link>https://gohugo.io/post/opensource/</link>
       <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>

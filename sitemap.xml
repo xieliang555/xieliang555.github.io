@@ -9,6 +9,11 @@
   </url>
   
   <url>
+    <loc>https://gohugo.io/post/note/</loc>
+    <lastmod>2019-12-29T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gohugo.io/post/opensource/</loc>
     <lastmod>2019-12-29T13:39:50+08:00</lastmod>
   </url>
@@ -45,6 +50,12 @@
   
   <url>
     <loc>https://gohugo.io/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2019-12-29T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2019-12-29T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
