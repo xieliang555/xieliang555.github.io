@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Open Source</title>
+      <link>https://gohugo.io/post/opensource/</link>
+      <pubDate>Mon, 23 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://gohugo.io/post/hugo/</link>
       <pubDate>Sun, 22 Dec 2019 13:39:50 +0800</pubDate>

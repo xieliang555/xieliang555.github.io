@@ -149,8 +149,14 @@
 <li>【<a href="https://yq.aliyun.com/articles/556724">离线安装</a>】apt-get install 的deb安装包一般存储在：/var/cache/apt/achives</li>
 <li>sudo apt-get update 读取源地址中最新的软件版本列表，并保存在电脑中，apt-get install通过该列表下载</li>
 <li>sudo apt-get upgrade 将本地已安装的软件与最新的软件版本列表对比，如果本地版本低于最新版本，会提示更新</li>
+<li>自动解决安装包的依赖关系，自动搜索安装其他依赖文件</li>
 </ul></li>
-<li>dpkg</li>
+<li>dpkg
+
+<ul>
+<li>不会自动搜索该软件包的依赖项。在安装前最好执行依赖修复(sudo apt-get install -f) 再用dpkg安装deb软件包</li>
+<li>离线安装：dpkg -i name.deb</li>
+</ul></li>
 <li>snap</li>
 <li>bash setup.sh. 或者 ./setup.sh</li>
 </ul>

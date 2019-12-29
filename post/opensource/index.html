@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/cuda/" />
-  <link rel="canonical" href="https://gohugo.io/post/cuda/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/opensource/" />
+  <link rel="canonical" href="https://gohugo.io/post/opensource/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,8 +17,8 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "Cuda",
-      "headline" : "Cuda",
+      "name" : "Open Source",
+      "headline" : "Open Source",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -27,14 +27,14 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2019",
-      "datePublished": "2019-12-26 13:39:50 \x2b0800 CST",
-      "dateModified" : "2019-12-26 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/cuda\/",
+      "datePublished": "2019-12-23 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-23 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/opensource\/",
       "keywords" : [ "tag1","tag2", ]
   }
 </script>
-<title>Cuda - XieLiang</title>
-  <meta property="og:title" content="Cuda - XieLiang" />
+<title>Open Source - XieLiang</title>
+  <meta property="og:title" content="Open Source - XieLiang" />
   <meta property="og:type" content="article" />
   <meta name="description" content="" />
 
@@ -100,13 +100,13 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Cuda</h1>
+          <h1 class="post-title">Open Source</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2019-12-26 13:39:50 CST">
-                26 Dec 2019
+              <time class="post-date" datetime="2019-12-23 13:39:50 CST">
+                23 Dec 2019
               </time>
               
             </div>
@@ -119,44 +119,15 @@
 
         <div class="post-content markdown-body">
           <blockquote>
-<p>安装 （win10 / Ubuntu）</p>
+<p>NLP</p>
 </blockquote>
 
 <ul>
-<li>Nvidia官网找显卡驱动（与GPU对应的版本），安装</li>
-<li>安装CUDA toolkit（CUDA driver+CUDA），并行计算平台 （安装前先确认TensorFlow和PyTorch能支持的最高版本)</li>
-<li>安装cudnn：深度学习库 (ubuntu下随cuda自动安装)</li>
-<li>安装GPU版的PyTorch和TensorFlow</li>
-</ul>
-
-<blockquote>
-<p>查询</p>
-</blockquote>
-
-<ul>
-<li>torch.cuda.is_available() 查询cuda是否支持PyTorch</li>
-<li>torch.version.cuda 查询cuda版本</li>
-<li>torch.backends.cudnn.is_avaiable() 查询cudnn是否支持Pytorch</li>
-<li>torch.backends.cudnn.version() 查询cudnn版本</li>
-</ul>
-
-<blockquote>
-<p>常用指令</p>
-</blockquote>
-
-<ul>
-<li>查询CUDA版本：nvcc —version / nvcc -V （需要添加环境变量）</li>
-<li>显示GPU的当前信息状态：nvidia-smi</li>
-<li>以滚动条形式刷新GPU设备统计信息（ctrl+C结束）： nvidia-smi dmon
-
-<ul>
-<li>idx：gpu编号</li>
-<li>pwr: 功耗</li>
-<li>temp：温度</li>
-<li>GPU使用率， sm：流处理器；mem：显存；enc：编码资源；dec：解码资源</li>
-<li>显存频率：mclk</li>
-<li>处理器频率：pclk</li>
-</ul></li>
+<li><a href="https://pytorch.org/tutorials/">PyTorch Tutorial</a></li>
+<li><a href="http://opennmt.net">Open NMT</a></li>
+<li><a href="https://huggingface.co">Hugging Face</a></li>
+<li><a href="https://huggingface.co">GLUON</a></li>
+<li><a href="https://github.com/flairNLP/flair">Flair</a></li>
 </ul>
         </div>
 
@@ -179,11 +150,11 @@
   <h3>Related Posts</h3>
   <ul>
     
+    <li><a href="/post/cuda/">Cuda</a></li>
+    
     <li><a href="/post/git/">Git</a></li>
     
     <li><a href="/post/anaconda/">Anaconda</a></li>
-    
-    <li><a href="/post/linux/">Linux</a></li>
     
   </ul>
 </div>
