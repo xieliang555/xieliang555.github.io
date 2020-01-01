@@ -3,8 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gohugo.io/categories/blog/</loc>
+    <lastmod>2019-12-31T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gohugo.io/categories/</loc>
-    <lastmod>2019-12-29T13:39:50+08:00</lastmod>
+    <lastmod>2019-12-31T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/</loc>
+    <lastmod>2019-12-31T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/post/source/</loc>
+    <lastmod>2019-12-31T13:39:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tags/</loc>
+    <lastmod>2019-12-31T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/</loc>
+    <lastmod>2019-12-31T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tags/tag1/</loc>
+    <lastmod>2019-12-31T13:39:50+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tags/tag2/</loc>
+    <lastmod>2019-12-31T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16,36 +57,6 @@
   <url>
     <loc>https://gohugo.io/post/opensource/</loc>
     <lastmod>2019-12-29T13:39:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/post/</loc>
-    <lastmod>2019-12-29T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/tags/</loc>
-    <lastmod>2019-12-29T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/</loc>
-    <lastmod>2019-12-29T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/tags/tag1/</loc>
-    <lastmod>2019-12-29T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/tags/tag2/</loc>
-    <lastmod>2019-12-29T13:39:50+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

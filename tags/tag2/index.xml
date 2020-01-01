@@ -6,10 +6,19 @@
     <description>Recent content in tag2 on XieLiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2019 13:39:50 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2019 13:39:50 +0800</lastBuildDate>
     
 	<atom:link href="https://gohugo.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Source</title>
+      <link>https://gohugo.io/post/source/</link>
+      <pubDate>Tue, 31 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/source/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Note</title>
@@ -21,7 +30,7 @@
     </item>
     
     <item>
-      <title>Open Source</title>
+      <title>Open Code</title>
       <link>https://gohugo.io/post/opensource/</link>
       <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>
       
