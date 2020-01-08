@@ -130,109 +130,20 @@
 </ul>
 
 <blockquote>
-<p>from torchvision import transforms (Module -&gt; class)</p>
-</blockquote>
-
-<ul>
-<li>transforms.Compose()</li>
-<li>transforms.RandomResizedCrop() 样本大小必须一样</li>
-<li>transforms.ToTensor() 样本必须转为Tensor</li>
-</ul>
-
-<blockquote>
-<p>from torchvision import datasets (Module -&gt; class)</p>
-</blockquote>
-
-<ul>
-<li>datasets.ImageFolder(root, transform=None)  need to arrange the folder manually</li>
-<li>datasets.MNIST(root, train=True, Transform=None, download=False)</li>
-</ul>
-
-<blockquote>
-<p>import torch.utils.data (Module -&gt; class)</p>
-</blockquote>
-
-<ul>
-<li>data.DataLoader(dataset_object, batch_size=1, shuffle=False, num_workers=0)</li>
-</ul>
-
-<blockquote>
-<p>from torchvision import models (Module -&gt; class)</p>
-</blockquote>
-
-<ul>
-<li>models.resnet18(pretrain=True)</li>
-<li>(object -&gt; function)
-
-<ul>
-<li>model.train()</li>
-<li>model.eval()</li>
-<li>model.parameters()</li>
-<li>model.state_dict()</li>
-<li>model.load_state_dict()</li>
-</ul></li>
-</ul>
-
-<blockquote>
-<p>import torch.nn as nn （Module -&gt; class）</p>
-</blockquote>
-
-<ul>
-<li>nn.Conv2d(in_channels, out_channels, kernel_size, stride=1,padding=0)</li>
-<li>nn.Dropout2d()</li>
-<li>nn.Linear(in_features, out_features)</li>
-<li>nn.ReLU()</li>
-</ul>
-
-<blockquote>
-<p>import torch.nn.functional as F (Module -&gt; function)</p>
-</blockquote>
-
-<ul>
-<li>F.max_pool2d(input_tensor, kernel_size)</li>
-<li>F.relu(input_tensor)</li>
-<li>F.dropout(input_tensor)</li>
-<li>F.log_softmax(input_tensor, dim=None)</li>
-<li>F.nll_loss(input_tensor, output_tensor) [negative log likelihood loss]</li>
-</ul>
-
-<blockquote>
-<p>import torch.optimal as optimal (Module -&gt; object)</p>
-</blockquote>
-
-<ul>
-<li>optimal.SGD(params, lr=0.01, momentum=0.9)</li>
-
-<li><p>optimal.Adam(params, le=0.001)</p>
-
-<p><strong>Note:</strong> params=model.parameters()</p></li>
-</ul>
-
-<blockquote>
-<p>torch.tensor</p>
-</blockquote>
-
-<ul>
-<li>reshape: tensor.view(shape)</li>
-<li>reshape: tensor.view(tensor)</li>
-<li>比较，相同返回1，不同返回0: tensor.eq(tensor)</li>
-<li>求和：tensor.sum()</li>
-<li>求最大值：tensor.max(dim=None, keepdim=False)[0]</li>
-<li>求最大值下标： tensor.max(dim=None, keepdim=False)[1]</li>
-<li>获取tensor的实值：tensor.item()</li>
-<li>获取tensor的shape: tensor.size()</li>
-</ul>
-
-<blockquote>
 <p>其他</p>
 </blockquote>
 
 <ul>
-<li>optimizer.zero_grad()</li>
-<li>loss.backward() 计算梯度</li>
-<li>optimizer.step() 更新梯度</li>
-<li>len(train_loader.dataset) 整个训练集样本个数</li>
-<li>len(train_loader) 整个训练集的batch个数</li>
+<li><a href="torch.nn.utils.rnn.pad_sequence">torch.nn.utils.rnn.pad_sequence</a></li>
+<li><a href="https://blog.csdn.net/HappyCtest/article/details/88872651">collate_fn</a></li>
+</ul>
+
+<blockquote>
+<p>tricks</p>
+</blockquote>
+
+<ul>
+<li><a href="https://discuss.pytorch.org/t/how-to-concatenate-list-of-pytorch-tensors/1350">合并tensors</a></li>
 </ul>
         </div>
 
