@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具 on XieLiang</title>
+    <link>https://gohugo.io/categories/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 工具 on XieLiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Dec 2019 13:39:50 +0800</lastBuildDate>
+    
+	<atom:link href="https://gohugo.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open Code</title>
+      <link>https://gohugo.io/post/opensource/</link>
+      <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cuda</title>
+      <link>https://gohugo.io/post/cuda/</link>
+      <pubDate>Thu, 26 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/cuda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://gohugo.io/post/git/</link>
+      <pubDate>Thu, 26 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anaconda</title>
+      <link>https://gohugo.io/post/anaconda/</link>
+      <pubDate>Wed, 25 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/anaconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://gohugo.io/post/hugo/</link>
+      <pubDate>Sun, 22 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/hugo/</guid>
+      <description>&lt;p&gt;command&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://gohugo.io/post/markdown/</link>
+      <pubDate>Sun, 22 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/markdown/</guid>
+      <description>&lt;p&gt;command&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sublime</title>
+      <link>https://gohugo.io/post/sublime/</link>
+      <pubDate>Sun, 22 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/sublime/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

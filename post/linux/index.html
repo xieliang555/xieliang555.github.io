@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.55.5" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="" />
+  <meta property="og:url" content="https://gohugo.io/post/linux/" />
+  <link rel="canonical" href="https://gohugo.io/post/linux/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/gohugo.io\/"
+      },
+      "articleSection" : "post",
+      "name" : "Linux",
+      "headline" : "Linux",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-12-25 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-25 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/linux\/",
+      "keywords" : [ "tag1","tag2", ]
+  }
+</script>
+<title>Linux - XieLiang</title>
+  <meta property="og:title" content="Linux - XieLiang" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet"
+    href="/css/github-markdown.min.css" />
+  <link rel="stylesheet" href="/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/css/index.css">
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="XieLiang">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  
+
+  
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          <header id="header" data-behavior="">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">XieLiang</a>
+  </div>
+  
+
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+  
+</header>
+
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">Linux</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2019-12-25 13:39:50 CST">
+                25 Dec 2019
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          <blockquote>
+<p>命令行</p>
+</blockquote>
+
+<ul>
+<li><p>文件</p>
+
+<ul>
+<li>mkdir: 新建文件夹</li>
+<li>touch： 新建文件</li>
+<li>gedit：打开文件</li>
+<li>删除目录： rm -rf dirname</li>
+<li>删除文件：rm filename</li>
+<li>清空目录: rm -rf *</li>
+<li>文件夹重命名：mv name1 name2</li>
+<li>复制粘贴： cp src dir</li>
+<li>剪切粘贴： mv src dir</li>
+</ul></li>
+
+<li><p>查询</p>
+
+<ul>
+<li>查询内存：free -m （以M为单位显示）</li>
+<li>查询显存和GPU：nvidia-smi (主要看memory-usage：显存使用；GPU-Util： GPU利用率；Processes: 各进程占用显存情况)</li>
+<li>查询磁盘： df</li>
+<li>查询当前目录大小：du -ch</li>
+<li>查询指定目录大小：du -sh dirname</li>
+<li>动态查询GPU： nvidia-smi dmon</li>
+<li>动态查询CPU： <a href="https://www.cnblogs.com/zhoug2020/p/6336453.html">top</a></li>
+</ul></li>
+
+<li><p>文件传递（在本地命令行）</p>
+
+<ul>
+<li>上传本地文件到服务器： scp local_file username@servername:remote_dir</li>
+<li>下载服务器文件到本地： scp username@servername:remote_file local_dir</li>
+<li>上传本地目录到服务器： scp -r local_dir username@servername:remote_dir</li>
+<li>下载服务器目录到本地： scp -r username@servername:remote_dir local_dir</li>
+</ul></li>
+
+<li><p>安装</p>
+
+<ul>
+<li>apt
+
+<ul>
+<li>【<a href="https://yq.aliyun.com/articles/556724">离线安装</a>】apt-get install 的deb安装包一般存储在：/var/cache/apt/achives</li>
+<li>sudo apt-get update 读取源地址中最新的软件版本列表，并保存在电脑中，apt-get install通过该列表下载</li>
+<li>sudo apt-get upgrade 将本地已安装的软件与最新的软件版本列表对比，如果本地版本低于最新版本，会提示更新</li>
+<li>自动解决安装包的依赖关系，自动搜索安装其他依赖文件</li>
+</ul></li>
+<li>dpkg
+
+<ul>
+<li>不会自动搜索该软件包的依赖项。若安装时提示缺少依赖，执行依赖修复(sudo apt-get install -f) 再用dpkg安装deb软件包</li>
+<li>离线安装：dpkg -i name.deb</li>
+</ul></li>
+<li>snap</li>
+<li>bash setup.sh. 或者 ./setup.sh</li>
+</ul></li>
+
+<li><p>添加环境变量</p>
+
+<ul>
+<li>查找文件夹（如anaconda下的bin文件夹）： whereis anaconda</li>
+<li>查找环境变量: export 或者 env 或者 echo $PATH</li>
+<li>写入环境变量到/etc/paths ： export PATH=/opt/local/bin:/opt/local/sbin:$PATH</li>
+</ul></li>
+
+<li><p>其他</p>
+
+<ul>
+<li>which: 在环境变量指定的路径中查找可执行文件(bin)</li>
+<li>改变镜像源 系统设置-&gt;软件和跟新-&gt;下载自其他站点-&gt;选择最佳服务器</li>
+<li>whereis 查找可执行文件，查找范围比which广，还可以查命令的man手册和源代码文件的路径</li>
+<li>find ?</li>
+<li>locate ?</li>
+</ul></li>
+</ul>
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+            <div class="post-category">
+              <a href="/categories/ubuntu/">
+                Ubuntu
+              </a>
+            </div>
+            
+            <div class="post-category">
+              <a href="/categories/macos/">
+                MacOS
+              </a>
+            </div>
+            
+            <div class="post-category">
+              <a href="/categories/%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f/">
+                操作系统
+              </a>
+            </div>
+            
+            <div class="post-category">
+              <a href="/categories/%e5%b8%b8%e7%94%a8%e6%8c%87%e4%bb%a4/">
+                常用指令
+              </a>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        
+
+<div class="releated-content">
+  <h3>Related Posts</h3>
+  <ul>
+    
+    <li><a href="/post/source/">Source</a></li>
+    
+    <li><a href="/post/note/">Note</a></li>
+    
+    <li><a href="/post/opensource/">Open Code</a></li>
+    
+  </ul>
+</div>
+
+        
+        
+        <div style="height: 50px;"></div>
+        
+        
+
+        <div class="site-footer">
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="/js/highlight.pack.js"></script>
+
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>
