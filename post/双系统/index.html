@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.55.5" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="" />
+  <meta property="og:url" content="https://gohugo.io/post/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
+  <link rel="canonical" href="https://gohugo.io/post/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/gohugo.io\/"
+      },
+      "articleSection" : "post",
+      "name" : "双系统",
+      "headline" : "双系统",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-12-25 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-25 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/%E5%8F%8C%E7%B3%BB%E7%BB%9F\/",
+      "keywords" : [ "tag1","tag2", ]
+  }
+</script>
+<title>双系统 - XieLiang</title>
+  <meta property="og:title" content="双系统 - XieLiang" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet"
+    href="/css/github-markdown.min.css" />
+  <link rel="stylesheet" href="/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/css/index.css">
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="XieLiang">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  
+
+  
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          <header id="header" data-behavior="">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">XieLiang</a>
+  </div>
+  
+
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+  
+</header>
+
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">双系统</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2019-12-25 13:39:50 CST">
+                25 Dec 2019
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          <blockquote>
+<p>安装</p>
+</blockquote>
+
+<ul>
+<li><p>制作U盘启动盘：查看系统的启动方式和分区模式</p>
+
+<ul>
+<li>UEFI启动+GTP（guid）分区</li>
+<li>传统Legacy BIOS启动+MBR分区</li>
+<li>可通过<a href="http://baijiahao.baidu.com/s?id=1647623092284651351&amp;wfr=spider&amp;for=pc">第三方分区软件</a>将GPT和MBR分区无损转换，然后在在bios中将legacy启动设为UEFI启动</li>
+</ul></li>
+
+<li><p>创建硬盘空白分区：我的电脑-管理-磁盘管理，制作安装ubuntu的空白分区</p></li>
+
+<li><p>关闭win10的快速启动和安全启动</p>
+
+<ul>
+<li>关闭快速启动：电源与睡眠 -&gt; 其他电源设置 -&gt; 选择电源按钮的功能 -&gt; 更改当前不可用的设置 -&gt;取消快速启动 （也可在bios中更改）</li>
+<li>关闭安全启动：开机按F2或DEL， 进入BIOS模式 -&gt; 选择security -&gt; secure boot 设置成disable -&gt; 在boot选项查看快速启动是否关闭 （为了通过u盘启动）[无线键盘可能无法进入bios]</li>
+<li>安装ubuntu：开机按F12，选项U盘启动方式 [或者在bios中设置启动顺序]</li>
+<li>检测到这台电脑已经安装了windows boot manager后，选择其他选项</li>
+<li>分区：选择空闲的空间，继续分区，swap+/
+
+<ul>
+<li>Swap交换空间：内存大小的1～1.5倍。逻辑分区+空间起始位置</li>
+<li>其余的分给 / 。 逻辑分区+空间起始位置+ext4日志文件系统</li>
+</ul></li>
+<li>将启动引导器安装在和/一样的位置中</li>
+</ul></li>
+
+<li><p>如果需要<a href="https://blog.csdn.net/jiajinrang93/article/details/63892208">重新安装</a>，不要直接从window下格式化（可能会导致无法启动windoes），重新从u盘启动，进入到分区界面，将之前Ubuntu分区的通过减号“-”去除，然后通过加号”+“重新添加分区，要卸载ubuntu也是通过这种方法。</p>
+
+<p><strong>注意</strong>：</p>
+
+<ul>
+<li>先安装windows，后安装ubuntu，由ubuntu引导windows启动（不能在window下直接格式化ubuntu系统）</li>
+<li>ubuntu和windows可以同时安装在同一块硬盘中</li>
+<li>在ubuntu中无法访问windows磁盘，可能是windows处于休眠状态，先打开windows然后再启动ubuntu（windows中的快速启动必须关闭）</li>
+</ul></li>
+</ul>
+
+<p>[<a href="https://www.jianshu.com/p/38e6be8efecf">参考</a>]</p>
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+            <div class="post-category">
+              <a href="/categories/%e5%ae%89%e8%a3%85/">
+                安装
+              </a>
+            </div>
+            
+            <div class="post-category">
+              <a href="/categories/win10/">
+                win10
+              </a>
+            </div>
+            
+            <div class="post-category">
+              <a href="/categories/ubuntu/">
+                Ubuntu
+              </a>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        
+
+<div class="releated-content">
+  <h3>Related Posts</h3>
+  <ul>
+    
+    <li><a href="/post/source/">Source</a></li>
+    
+    <li><a href="/post/note/">Note</a></li>
+    
+    <li><a href="/post/opensource/">Open Code</a></li>
+    
+  </ul>
+</div>
+
+        
+        
+        <div style="height: 50px;"></div>
+        
+        
+
+        <div class="site-footer">
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="/js/highlight.pack.js"></script>
+
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.55.5" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="" />
+  <meta property="og:url" content="https://gohugo.io/post/python/" />
+  <link rel="canonical" href="https://gohugo.io/post/python/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/gohugo.io\/"
+      },
+      "articleSection" : "post",
+      "name" : "Python",
+      "headline" : "Python",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-12-23 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-12-23 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/python\/",
+      "keywords" : [ "tag1","tag2", ]
+  }
+</script>
+<title>Python - XieLiang</title>
+  <meta property="og:title" content="Python - XieLiang" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet"
+    href="/css/github-markdown.min.css" />
+  <link rel="stylesheet" href="/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/css/index.css">
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="XieLiang">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker" rel="stylesheet">
+  
+  
+
+  
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="site-header">
+          <header id="header" data-behavior="">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">XieLiang</a>
+  </div>
+  
+
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+  
+</header>
+
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">Python</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2019-12-23 13:39:50 CST">
+                23 Dec 2019
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          <blockquote>
+<p>文件结构</p>
+</blockquote>
+
+<ul>
+<li>module: 模块，具有独立功能，函数或类构成的module.py文件</li>
+<li>Package: 相关模块的集合，结构：
+
+<ul>
+<li>package
+
+<ul>
+<li><strong>init</strong>.py</li>
+<li>&ndash; module1.py</li>
+<li>&ndash; module2.py</li>
+</ul></li>
+</ul></li>
+<li>Library:： 相关模块的集合</li>
+<li>如：Library： PyTorch； Package： torchvision，torchtext； Module： torchtext.data</li>
+<li>依赖：包（库）与包（库）之间的引用关系</li>
+</ul>
+
+<blockquote>
+<p>常用函数：</p>
+</blockquote>
+
+<ul>
+<li><p>字符串</p>
+
+<ul>
+<li>str.repalce(char, char)</li>
+<li>Str.split(char)</li>
+</ul></li>
+
+<li><p>文件</p>
+
+<ul>
+<li>open(file_path, ‘r’, encoding=‘utf-8’)</li>
+<li>f.read()</li>
+</ul></li>
+
+<li><p>基本数据结构</p>
+
+<ul>
+<li>dict()</li>
+<li>dict.items()</li>
+<li>dict.keys()</li>
+<li>dict.values()</li>
+<li>dict.get()</li>
+<li>list.insert()</li>
+<li>list反转：[::-1]</li>
+<li>List.extend()</li>
+</ul></li>
+
+<li><p>路径</p>
+
+<ul>
+<li>os.getcwd() 获取当前工作路径</li>
+<li>os.path.join(root, relative_path) 获取指定路径</li>
+<li>os.path.exist(path)</li>
+</ul></li>
+
+<li><p>其他</p>
+
+<ul>
+<li>enumerate</li>
+<li>zip</li>
+<li>copy <a href="https://www.cnblogs.com/nmap/p/9315970.html">ref</a></li>
+<li>iter()</li>
+<li>next()</li>
+<li>type()</li>
+<li><a href="https://github.com/xieliang555/sign/blob/master/tutorial/multiprocess.py">多线程</a></li>
+</ul></li>
+
+<li><p>Pandas</p>
+
+<ul>
+<li>读取csv文件：1）读取文件：file = pandas.read_csv(file_path) 2)切片读取数据：data = file.iloc[rows, columns]</li>
+</ul></li>
+
+<li><p>scikit-image</p>
+
+<ul>
+<li>读取图片: image = skimage.io.imread(image_path)</li>
+<li>读取图片序列： image_collection = skimage.io.imread_collection(root_path)</li>
+<li>显示图片： plt.imshow(image) plt.imshow(image_collection[0])</li>
+</ul></li>
+
+<li><p>Python脚本执行方式（查找文件的路径不一样）：</p></li>
+
+<li><p>python file.py 运行当前路径下的file.py文件</p></li>
+
+<li><p>python -m file.py 将已安装的模块当脚本运行</p></li>
+
+<li><p>编码</p>
+
+<ul>
+<li>当前文件的编码格式：python3 的每一个头文件都会有 # -<em>- encoding==utf-8 -</em>- 它的实际作用是将当前py文件的编码格式设置为utf-8，如果没有这一行注释代码，
+那么在执行当前的.py文件时候，只要该.py文件中有中文汉字就会ascii报错</li>
+<li>当前系统使用的默认编码：在python27版本中，当前环境的默认编码为ascii，每当你创建一个字符串str对象时，它的编码格式为默认的ascii格式，如果在执行字符串操作时候报了相关的ascii 错误，可以在该文件中添加以下语句，使当前系统的默认编码修改为utf-8，python3之后的版本不需要，已经默认字符编码是utf-8</li>
+
+<li><p>标准输出默认编码：print默认编码方式是ascii，在print一个中文字符串时候有时候也会报ascii的编码错误，可以通过设置改为uft-8</p>
+
+<pre><code>import sys
+import codecs
+sys.stdout = codecs.getwriter(&quot;utf-8&quot;)(sys.stdout.detach())
+</code></pre></li>
+</ul></li>
+</ul>
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+            <div class="post-category">
+              <a href="/categories/%e8%af%ad%e8%a8%80/">
+                语言
+              </a>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        
+
+<div class="releated-content">
+  <h3>Related Posts</h3>
+  <ul>
+    
+    <li><a href="/post/source/">Source</a></li>
+    
+    <li><a href="/post/note/">Note</a></li>
+    
+    <li><a href="/post/opensource/">Open Code</a></li>
+    
+  </ul>
+</div>
+
+        
+        
+        <div style="height: 50px;"></div>
+        
+        
+
+        <div class="site-footer">
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="/js/highlight.pack.js"></script>
+
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>
