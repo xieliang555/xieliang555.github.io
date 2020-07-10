@@ -30,6 +30,23 @@
     </item>
     
     <item>
+      <title>Note</title>
+      <link>https://gohugo.io/post/note/</link>
+      <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>
+      
+      <guid>https://gohugo.io/post/note/</guid>
+      <description>&lt;p&gt;categories:
+- 笔记
+tags:
+- tag1
+- tag2
+keywords:
+- tech&lt;/p&gt;
+
+&lt;h2 id=&#34;thumbnailimage-example-com-image-jpg&#34;&gt;#thumbnailImage: //example.com/image.jpg&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
       <title>Open Code</title>
       <link>https://gohugo.io/post/opensource/</link>
       <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>

@@ -198,6 +198,150 @@ keywords:
 <li>tensorboard 可视化错误样本</li>
 <li>print(model): 查看模型</li>
 </ul>
+
+<blockquote>
+<p>deconvolution的三个应用</p>
+</blockquote>
+
+<ul>
+<li><a href="https://www.zhihu.com/question/43609045">ref</a></li>
+</ul>
+
+<blockquote>
+<p>model.eval()和torch.no_grad()</p>
+</blockquote>
+
+<p><a href="https://discuss.pytorch.org/t/model-eval-vs-with-torch-no-grad/19615">ref</a></p>
+
+<blockquote>
+<p>减小显存</p>
+</blockquote>
+
+<ul>
+<li>减小batch</li>
+<li>减小输入分辨率</li>
+<li>减小网络结构</li>
+<li>torch.no_grad</li>
+</ul>
+
+<blockquote>
+<p>减小时间复杂度</p>
+</blockquote>
+
+<ul>
+<li>主要是load数据时间 wall time VS. cpu time
+
+<ul>
+<li><a href="https://stackoverflow.com/questions/4310039/user-cpu-time-vs-system-cpu-time/39297244">ref</a></li>
+<li><a href="https://blog.csdn.net/chun_1959/article/details/45644801?depth_1-utm_source=distribute.pc_relevant.none-task&amp;utm_source=distribute.pc_relevant.none-task">ref</a></li>
+</ul></li>
+</ul>
+
+<blockquote>
+<p>pytorch 保存模型</p>
+</blockquote>
+
+<ul>
+<li>不要在模型中import自定义的类</li>
+<li>模型中定义的tensors 1)非求导参数使用register_buffer，2）输入型tensor在forward中传入device而不是<strong>init</strong>中传入，避免固定device</li>
+</ul>
+
+<blockquote>
+<p>进程</p>
+</blockquote>
+
+<ul>
+<li>获取当前进程pid: os.getpid()</li>
+<li>获取父进程pid: os.getppid()</li>
+</ul>
+
+<blockquote>
+<p>理论</p>
+</blockquote>
+
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/43781381">多线程/进程</a></li>
+<li><a href="https://www.codelast.com/%E5%8E%9F%E5%88%9B-%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2softmax%E5%87%BD%E6%95%B0%E4%B8%8A%E6%BA%A2%E5%87%BAoverflow%E5%92%8C%E4%B8%8B%E6%BA%A2%E5%87%BAunderflow/">log_softmax</a></li>
+<li><a href="https://pytorch.org/docs/stable/nn.html#crossentropyloss">交叉熵损失函数</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/56961620">mAP</a></li>
+<li><a href="https://colab.research.google.com/drive/1FbuTOevZTUO3IEVJLwSfwCdGnrBf3Qwv">神经网络可视化</a> + 特征图可视化 + 反卷积重建 lime只能用于测试一张图片，无法用于batch</li>
+<li><a href="https://zhuanlan.zhihu.com/p/31426458">faster rcnn</a></li>
+<li><a href="https://blog.csdn.net/xiexu911/article/details/80609298">目标检测非极大值抑制nms</a></li>
+<li><a href="https://pytorch.org/docs/stable/nn.html#smoothl1loss">smooth L1</a></li>
+<li><a href="https://blog.csdn.net/lin_limin/article/details/81048411">GMM EM</a></li>
+<li><a href="https://github.com/imalic3/python-word-error-rate/blob/master/word_error_rate.py">wer</a></li>
+<li>randdom crop的作用：可以使神经网络关注次要的重要部位</li>
+<li>normalize的作用：加快神经网络训练</li>
+<li><a href="https://zhuanlan.zhihu.com/p/48257326?utm_source=wechat_session&amp;utm_medium=social&amp;utm_oi=1194182869202059264">过拟合，欠拟合，偏差方差</a></li>
+<li><a href="https://mp.weixin.qq.com/s/cVoWZs_R0Si1G9AOHx4Ztw">resnet解决了模型衰退的问题</a></li>
+<li><a href="https://www.zhihu.com/question/20962240/answer/33438846?utm_source=wechat_session&amp;utm_medium=social&amp;utm_oi=1194182869202059264">隐马尔可夫</a></li>
+<li><a href="https://www.zhihu.com/question/30817011/answer/75767253">旋转不变性</a></li>
+<li><a href="https://mp.weixin.qq.com/s/rKOe3Q53VxY5cVPPfH4ljQ">CNN及其十大变形网络</a></li>
+<li><a href="https://www1.icsi.berkeley.edu/Speech/faq/insdel.html">wer定义</a></li>
+<li><a href="https://stats.stackexchange.com/questions/321054/what-are-residual-connections-in-rnns">skip connection</a>
+
+<ul>
+<li>resnet可以理解为不同深度网络的bagging，当不需要那么深的网络时后面的网络可以直接通过identity layer，identity layer 比 nonlinear layer好学
+-<a href="https://github.com/b-etienne/Seq2seq-PyTorch/blob/master/models/modules/decoders.py">Luong and Bahdanau attention implementation</a></li>
+</ul></li>
+</ul>
+
+<blockquote>
+<p>实践</p>
+</blockquote>
+
+<ul>
+<li><a href="https://mp.weixin.qq.com/s/ZdMA7J9t4ih0aH7DKUtocw">显存估计方法</a></li>
+<li><a href="https://blog.csdn.net/qq_32998593/article/details/92849585">深度学习PyTorch，TensorFlow中GPU利用率较低，CPU利用率很低，且模型训练速度很慢的问题总结与分析</a></li>
+<li><a href="https://www.jianshu.com/p/8d14238d402a">matplotlib画bounding box</a></li>
+<li>matplotlib画子图: sign-language-recognition/visualize</li>
+<li><a href="https://www.jianshu.com/p/fef2d215b91d">python argparse</a></li>
+<li><a href="https://pytorch.org/tutorials/beginner/data_loading_tutorial.html">pytorch video transforms1</a></li>
+<li><a href="https://github.com/pytorch/vision/tree/master/torchvision/transforms">pytorch video transforms2</a></li>
+<li><a href="https://mp.weixin.qq.com/s/pu5k6HoAdL6RU1cffVB0nA">matplotlib画论文图</a></li>
+<li>pytorch导入模型部分参数 <a href="https://www.jb51.net/article/177714.htm">ref</a></li>
+<li><a href="https://www.cnblogs.com/linkenpark/p/10909523.html">python 导入相对路径</a></li>
+<li>[python import出现 ModuleNotFoundError: No module named &lsquo;XXX&rsquo; ：
+
+<ul>
+<li>import sys print(sys.path) 查看module路径是否在该path中，如果不在通过sys.path.append(&lsquo;path&rsquo;)添加</li>
+</ul></li>
+<li><a href="https://discuss.pytorch.org/t/how-to-remove-an-element-from-a-1-d-tensor-by-index/23109/5">pytorch删除tensor中的某一个元素</a></li>
+<li><a href="https://discuss.pytorch.org/t/aligning-torchtext-vocab-index-to-loaded-embedding-pre-trained-weights/20878/5">pytorch使用预训练embedding</a>
+
+<ul>
+<li><a href="https://github.com/pytorch/examples/blob/master/snli/train.py">PyTorch example</a></li>
+</ul></li>
+<li><a href="https://github.com/pytorch/examples/blob/master/word_language_model/model.py#L28">pytorch共享embedding的参数</a></li>
+<li><a href="https://docs.python.org/3/library/pathlib.html">python获取目录下的所有文件或目录</a>
+
+<ul>
+<li>*.py表示当前目录下所有py文件</li>
+<li>*<em>/</em>.py表示当前目录下所有py文件和文件夹内的py文件</li>
+</ul></li>
+<li><a href="https://pytorch.org/hub/huggingface_pytorch-transformers/">PyTorch pretrained transformer</a></li>
+<li><a href="https://www.quora.com/What-does-PyTorch-Embedding-do">PyTorch中embedding的实现</a></li>
+<li><a href="https://discuss.pytorch.org/t/solved-assertion-srcindex-srcselectdimsize-failed-on-gpu-for-torch-cat/1804">pytorch出现cuda错误，（如label&gt;class）先在cpu中测试，可以定位出错误代码</a></li>
+<li>当必须在gpu中训练时，使用命令行CUDA_LAUNCH_BLOCKING=1 python train.py 定位出错代码</li>
+<li>cpu利用率低，因为io阻塞，使用多线程解决</li>
+<li>re正则匹配
+
+<ul>
+<li><a href="https://www.jb51.net/article/176949.htm">re.match, re.search</a></li>
+</ul></li>
+<li><a href="https://stackoverflow.com/questions/29244286/how-to-flatten-a-2d-list-to-1d-without-using-numpy">python 二维list转一维</a></li>
+<li><a href="https://stackoverflow.com/questions/1059559/split-strings-into-words-with-multiple-word-boundary-delimiters">python string split多个分割符</a></li>
+<li><a href="https://web.archive.org/web/20171215025927/http://progfruits.blogspot.com/2014/02/word-error-rate-wer-and-word.html">计算wer的ins, del, sub</a></li>
+</ul>
+
+<blockquote>
+<p>training experience
+- batch normalization can always improve performance (converge rate or accuracy). batch size matters.
+- training step: model -&gt; network structure(CNN type, depth and width, total parameters) -&gt; regularization (weight decay, dropout, weight noise) -&gt; hyper-parameters(LR scheduler, optimizer, batch size)
+- ResNet为什么要有第一层： 使channel从3变成64， 方便后面x+identity维度一致, 论文中虚线的res连接表示升维，通过conv1x1保证x+identity维度一致
+- 自回归解码过程(seq2seq inference)会出现“停不下来”的问题，如: 今天天气不错不错不错&hellip; [涉及到语言模型的seq2seq都会有这个问题]
+- 训练时关注三个指标： 精度，收敛率，过拟合速度</p>
+</blockquote>
         </div>
 
         <div class="row middle-xs">
