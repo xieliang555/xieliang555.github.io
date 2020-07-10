@@ -6,10 +6,28 @@
     <description>Recent content in Categories on XieLiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 13:39:50 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gohugo.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>features</title>
+      <link>https://gohugo.io/categories/features/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/categories/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tranqui</title>
+      <link>https://gohugo.io/categories/tranqui/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/categories/tranqui/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blog</title>
@@ -26,15 +44,6 @@
       <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>
       
       <guid>https://gohugo.io/categories/%E5%B7%A5%E5%85%B7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>笔记</title>
-      <link>https://gohugo.io/categories/%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Sun, 29 Dec 2019 13:39:50 +0800</pubDate>
-      
-      <guid>https://gohugo.io/categories/%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
@@ -111,29 +120,11 @@
     </item>
     
     <item>
-      <title>tranqui</title>
-      <link>https://gohugo.io/categories/tranqui/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://gohugo.io/categories/tranqui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>showcase appliquée</title>
       <link>https://gohugo.io/categories/showcase-appliqu%C3%A9e/</link>
       <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://gohugo.io/categories/showcase-appliqu%C3%A9e/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>features</title>
-      <link>https://gohugo.io/categories/features/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://gohugo.io/categories/features/</guid>
       <description></description>
     </item>
     

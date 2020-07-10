@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/source/" />
-  <link rel="canonical" href="https://gohugo.io/post/source/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/7/" />
+  <link rel="canonical" href="https://gohugo.io/post/7/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,9 +17,9 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "Source",
-      "headline" : "Source",
-      "description" : "",
+      "name" : "Model free RL",
+      "headline" : "Model free RL",
+      "description" : "\x3cp\x3ecategories:\n- category\n- subcategory\ntags:\n- tag1\n- tag2\nkeywords:\n- tech\x3c\/p\x3e\n\n\x3ch2 id=\x22thumbnailimage-example-com-image-jpg\x22\x3e#thumbnailImage: \/\/example.com\/image.jpg\x3c\/h2\x3e\n\n\x3cp\x3eaction-value methods (Q-learning)\x3cbr \/\x3e\npolicy-based methods (Policy gradient)\x3cbr \/\x3e\nActor-critic\x3c\/p\x3e",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -27,16 +27,29 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2019",
-      "datePublished": "2019-12-31 13:39:50 \x2b0800 CST",
-      "dateModified" : "2019-12-31 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/source\/",
-      "keywords" : [ "tag1","tag2", ]
+      "datePublished": "2019-07-13 13:39:50 \x2b0800 CST",
+      "dateModified" : "2019-07-13 13:39:50 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/7\/",
+      "keywords" : [  ]
   }
 </script>
-<title>Source - XieLiang</title>
-  <meta property="og:title" content="Source - XieLiang" />
+<title>Model free RL - XieLiang</title>
+  <meta property="og:title" content="Model free RL - XieLiang" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="" />
+  <meta name="description" content="categories:
+- category
+- subcategory
+tags:
+- tag1
+- tag2
+keywords:
+- tech
+
+#thumbnailImage: //example.com/image.jpg
+
+action-value methods (Q-learning)
+policy-based methods (Policy gradient)
+Actor-critic" />
 
   <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
   <link rel="stylesheet"
@@ -100,13 +113,13 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Source</h1>
+          <h1 class="post-title">Model free RL</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2019-12-31 13:39:50 CST">
-                31 Dec 2019
+              <time class="post-date" datetime="2019-07-13 13:39:50 CST">
+                13 Jul 2019
               </time>
               
             </div>
@@ -118,41 +131,54 @@
         </header>
 
         <div class="post-content markdown-body">
-          <ul>
-<li><a href="https://ruder.io">Sebastian Ruder Blog</a></li>
-<li><a href="https://andrewpeng.dev/transformer-pytorch/">transformer</a>，<a href="https://zhuanlan.zhihu.com/p/47812375">知乎</a></li>
-<li><a href="https://spaces.ac.cn/archives/6933">bert</a></li>
-<li><a href="https://github.com/graykode/nlp-tutorial">langeuage model</a></li>
+          <p>categories:
+- category
+- subcategory
+tags:
+- tag1
+- tag2
+keywords:
+- tech</p>
+
+<h2 id="thumbnailimage-example-com-image-jpg">#thumbnailImage: //example.com/image.jpg</h2>
+
+<p>action-value methods (Q-learning)<br />
+policy-based methods (Policy gradient)<br />
+Actor-critic</p>
+
+<h3 id="similarities-and-differences">Similarities and Differences</h3>
+
+<p><strong>Q-learning:</strong></p>
+
+<ul>
+<li>Q-learning通过学习action-value function q(s,a)间接获得策略（policy）。</li>
 </ul>
+
+<p><strong>Policy gradient:</strong></p>
+
+<ul>
+<li>Policy gradient直接学习policy。</li>
+</ul>
+
+<p><strong>Actor-critic</strong></p>
+
+<ul>
+<li>同时学习policy和state-value function v(s)。其中actor指policy，critic指state-value function。</li>
+</ul>
+
+<p>Similarities see Ref. <a href="https://arxiv.org/pdf/1704.06440.pdf">Equivalence Between Policy Gradients and Soft Q-Learning</a></p>
+
+<h3 id="pros-and-cons">Pros and Cons</h3>
         </div>
 
         <div class="row middle-xs">
           <div class="col-xs-12">
-            
-            <div class="post-category">
-              <a href="/categories/blog/">
-                Blog
-              </a>
-            </div>
             
           </div>
         </div>
 
         
         
-
-<div class="releated-content">
-  <h3>Related Posts</h3>
-  <ul>
-    
-    <li><a href="/post/opensource/">Open Code</a></li>
-    
-    <li><a href="/post/cuda/">Cuda</a></li>
-    
-    <li><a href="/post/git/">Git</a></li>
-    
-  </ul>
-</div>
 
         
         

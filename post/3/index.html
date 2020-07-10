@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/source/" />
-  <link rel="canonical" href="https://gohugo.io/post/source/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/3/" />
+  <link rel="canonical" href="https://gohugo.io/post/3/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,9 +17,9 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "Source",
-      "headline" : "Source",
-      "description" : "",
+      "name" : "Policy Gradient with Baseline",
+      "headline" : "Policy Gradient with Baseline",
+      "description" : "\x3cp\x3ecategories:\n- category\n- subcategory\ntags:\n- tag1\n- tag2\nkeywords:\n- tech\x3c\/p\x3e\n\n\x3ch2 id=\x22thumbnailimage-example-com-image-jpg\x22\x3e#thumbnailImage: \/\/example.com\/image.jpg\x3c\/h2\x3e",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -27,16 +27,25 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2019",
-      "datePublished": "2019-12-31 13:39:50 \x2b0800 CST",
-      "dateModified" : "2019-12-31 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/source\/",
-      "keywords" : [ "tag1","tag2", ]
+      "datePublished": "2019-06-30 18:16:57 \x2b0800 CST",
+      "dateModified" : "2019-06-30 18:16:57 \x2b0800 CST",
+      "url" : "https:\/\/gohugo.io\/post\/3\/",
+      "keywords" : [  ]
   }
 </script>
-<title>Source - XieLiang</title>
-  <meta property="og:title" content="Source - XieLiang" />
+<title>Policy Gradient with Baseline - XieLiang</title>
+  <meta property="og:title" content="Policy Gradient with Baseline - XieLiang" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="" />
+  <meta name="description" content="categories:
+- category
+- subcategory
+tags:
+- tag1
+- tag2
+keywords:
+- tech
+
+#thumbnailImage: //example.com/image.jpg" />
 
   <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
   <link rel="stylesheet"
@@ -100,13 +109,13 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Source</h1>
+          <h1 class="post-title">Policy Gradient with Baseline</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2019-12-31 13:39:50 CST">
-                31 Dec 2019
+              <time class="post-date" datetime="2019-06-30 18:16:57 CST">
+                30 Jun 2019
               </time>
               
             </div>
@@ -118,41 +127,55 @@
         </header>
 
         <div class="post-content markdown-body">
-          <ul>
-<li><a href="https://ruder.io">Sebastian Ruder Blog</a></li>
-<li><a href="https://andrewpeng.dev/transformer-pytorch/">transformer</a>，<a href="https://zhuanlan.zhihu.com/p/47812375">知乎</a></li>
-<li><a href="https://spaces.ac.cn/archives/6933">bert</a></li>
-<li><a href="https://github.com/graykode/nlp-tutorial">langeuage model</a></li>
-</ul>
+          <p>categories:
+- category
+- subcategory
+tags:
+- tag1
+- tag2
+keywords:
+- tech</p>
+
+<h2 id="thumbnailimage-example-com-image-jpg">#thumbnailImage: //example.com/image.jpg</h2>
+
+<blockquote>
+<p>Recall:</p>
+</blockquote>
+
+<p>see Ref: <a href="https://arxiv.org/pdf/1506.02438.pdf">HIGH-DIMENSIONAL CONTINUOUS CONTROL USING GENERALIZED ADVANTAGE ESTIMATION</a></p>
+
+<p>The simplest policy gradient:<br />
+$$\nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}[\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)\sum_{t=0}^Tr_t]$$</p>
+
+<p>policy gradient with reward-to-go:<br />
+$$\nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}[\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)\sum_{t&rsquo;=t}^Tr_{t&rsquo;}]$$</p>
+
+<p>policy gradient with the expected reward-to-go:
+$$\nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}[\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)Q^{\pi_{\theta}}(s_t,a_t)]$$</p>
+
+<blockquote>
+<p>Baseline:</p>
+</blockquote>
+
+<p>Advantage with reward-to-go and the expected reward (cs294 hw2 baseline):
+$$ \nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}\lbrace\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)[\sum_{t&rsquo;=t}^Tr_{t&rsquo;}-V^{\pi_{\theta}}(s_t)]\rbrace$$</p>
+
+<p>Advantage with the expected reward-to-go and the expected reward (spinup vpg):
+$$ \nabla_{\theta}J_{\theta}=E_{\tau\sim\pi_{\theta}}\lbrace\sum_{t=0}^T\nabla_{\theta}log\pi_{\theta}(a_t|s_t)[Q^{\pi_{\theta}}(s_t,a_t)-V^{\pi_{\theta}}(s_t)]\rbrace$$</p>
+
+<p>vpg can achieve the minimum variance ,see cs295 lec-5 analysis variance</p>
+
+<p><a href="https://www.quora.com/Why-does-the-policy-gradient-method-have-a-high-variance">参考</a></p>
         </div>
 
         <div class="row middle-xs">
           <div class="col-xs-12">
-            
-            <div class="post-category">
-              <a href="/categories/blog/">
-                Blog
-              </a>
-            </div>
             
           </div>
         </div>
 
         
         
-
-<div class="releated-content">
-  <h3>Related Posts</h3>
-  <ul>
-    
-    <li><a href="/post/opensource/">Open Code</a></li>
-    
-    <li><a href="/post/cuda/">Cuda</a></li>
-    
-    <li><a href="/post/git/">Git</a></li>
-    
-  </ul>
-</div>
 
         
         

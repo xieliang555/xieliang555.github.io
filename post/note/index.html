@@ -19,7 +19,7 @@
       "articleSection" : "post",
       "name" : "Note",
       "headline" : "Note",
-      "description" : "",
+      "description" : "\x3cp\x3ecategories:\n- 笔记\ntags:\n- tag1\n- tag2\nkeywords:\n- tech\x3c\/p\x3e\n\n\x3ch2 id=\x22thumbnailimage-example-com-image-jpg\x22\x3e#thumbnailImage: \/\/example.com\/image.jpg\x3c\/h2\x3e",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -30,13 +30,21 @@
       "datePublished": "2019-12-29 13:39:50 \x2b0800 CST",
       "dateModified" : "2019-12-29 13:39:50 \x2b0800 CST",
       "url" : "https:\/\/gohugo.io\/post\/note\/",
-      "keywords" : [ "tag1","tag2", ]
+      "keywords" : [  ]
   }
 </script>
 <title>Note - XieLiang</title>
   <meta property="og:title" content="Note - XieLiang" />
   <meta property="og:type" content="article" />
-  <meta name="description" content="" />
+  <meta name="description" content="categories:
+- 笔记
+tags:
+- tag1
+- tag2
+keywords:
+- tech
+
+#thumbnailImage: //example.com/image.jpg" />
 
   <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
   <link rel="stylesheet"
@@ -118,7 +126,17 @@
         </header>
 
         <div class="post-content markdown-body">
-          <blockquote>
+          <p>categories:
+- 笔记
+tags:
+- tag1
+- tag2
+keywords:
+- tech</p>
+
+<h2 id="thumbnailimage-example-com-image-jpg">#thumbnailImage: //example.com/image.jpg</h2>
+
+<blockquote>
 <p>NLP</p>
 </blockquote>
 
@@ -147,36 +165,49 @@
 <ul>
 <li>一个强假设： 1）单调性</li>
 </ul></li>
+<li><a href="https://pypi.org/project/jiwer/">计算word error rate</a></li>
+</ul>
+
+<blockquote>
+<p>PyTorch</p>
+</blockquote>
+
+<ul>
+<li><a href="https://www.cnblogs.com/zi-wang/p/11773841.html">parameter, register, state_dict</a></li>
+</ul>
+
+<blockquote>
+<p>Problems</p>
+</blockquote>
+
+<ul>
+<li>PyTorch nn.CrossEntropyLoss 为什么要使用log_softmax</li>
+<li>transformer embedding的权重为什么要乘以根号(d_model)</li>
+<li>安装不上vizseq</li>
+<li>Tensorsorboard 视频可视化不能记录每一个step?</li>
+</ul>
+
+<blockquote>
+<p>Debug</p>
+</blockquote>
+
+<ul>
+<li>tensorboard：可视化训练样本</li>
+<li>torchsummaryX:  跑通前馈网络</li>
+<li>tensorboard + torchsummaryX: loss曲线,逻辑错误（小样本模型）;mult-adds及参数大小 ； 模型大小和输入大小</li>
+<li>tensorboard 可视化错误样本</li>
+<li>print(model): 查看模型</li>
 </ul>
         </div>
 
         <div class="row middle-xs">
           <div class="col-xs-12">
             
-            <div class="post-category">
-              <a href="/categories/%e7%ac%94%e8%ae%b0/">
-                笔记
-              </a>
-            </div>
-            
           </div>
         </div>
 
         
         
-
-<div class="releated-content">
-  <h3>Related Posts</h3>
-  <ul>
-    
-    <li><a href="/post/source/">Source</a></li>
-    
-    <li><a href="/post/opensource/">Open Code</a></li>
-    
-    <li><a href="/post/cuda/">Cuda</a></li>
-    
-  </ul>
-</div>
 
         
         

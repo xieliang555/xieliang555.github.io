@@ -118,15 +118,86 @@
         </header>
 
         <div class="post-content markdown-body">
-          <blockquote>
-<p>安装 （win10 / Ubuntu）</p>
+          <ul>
+<li><p>安装显卡驱动，版本要求：支持GPU，与接下来的CUDA对应 (如果已经安装了显卡驱动，通过nvidia-smi可以查询驱动版本及支持cuda版本)
+屏蔽开源驱动nouveau，安装过程会询问是否屏蔽，手动屏蔽也有多种操作方式，
+sudo gedit /etc/modprobe.d/blacklist.conf</p>
+
+<p>加参数到最底下回车另起一行内容为
+blacklist nouveau
+options nouveau modeset=0</p>
+
+<p>保存再终端更新内核命令
+sudo update-initramfs -u</p>
+
+<p>重启
+reboot</p>
+
+<p>lsmod | grep nouveau
+如果没有显示内容说明禁用成功</p>
+
+<p>然后好了以后重启电脑 百度nvidia 官网去下对应显卡版本的驱动举例（下面XXX是版本的意思） NVIDIA-Linux-x86_64-384.run （384或者390都可以版本里面的）下好的文件放在 主文件夹 或者说叫home 目录下</p>
+
+<p>到控制台
+先按Ctrl + Alt + F1（ctrl+alt+f7退出控制台）</p>
+
+<p>关闭当前图形环境
+sudo service lightdm stop</p>
+
+<p>再安装驱动程序
+cd /home/用户名</p>
+
+<p>进入到驱动所在文件夹 （下好的驱动文件放在home 或者叫主文件夹下）
+sudo chmod a+x NVIDIA-Linux-x86_64-xxx.run
+sudo sh NVIDIA-Linux-x86_64-xxx.run -no-opengl-files</p>
+
+<p>最后重新启动图形环境
+sudo service lightdm start
+<a href="https://www.cnblogs.com/harrymore/p/10307769.html">https://www.cnblogs.com/harrymore/p/10307769.html</a></p>
+
+<p>nvidia-smi检查驱动是否安装成功</p></li>
+
+<li><p>安装CUDA toolkit，并行计算平台</p>
+
+<ul>
+<li>cuda toolkit中带有显卡驱动，如果先前已经安装了cuda支持的驱动，则在该步骤取消勾选安装驱动的选项，如果先前安装的驱动版本低于cuda支持的版本，则勾选安装驱动的选项，覆盖掉低版本的驱动。</li>
+<li>驱动和cuda同时安装 <a href="https://blog.csdn.net/qq_40157728/article/details/104003794">https://blog.csdn.net/qq_40157728/article/details/104003794</a>, <a href="https://www.jianshu.com/p/f74d4534af80">https://www.jianshu.com/p/f74d4534af80</a></li>
+<li><a href="https://blog.csdn.net/wanzhen4330/article/details/81699769">ref</a></li>
+<li>安装前先确认cudnn和PyTorch能支持的最高版本</li>
+<li>安装完成后注意重启</li>
+<li>nvcc &ndash;version检查cuda是否安装成功</li>
+</ul></li>
+
+<li><p>安装cudnn：深度学习库 (ubuntu下随cuda自动安装?)</p>
+
+<ul>
+<li>安装过程实际上是把cudnn的头文件复制到CUDA的头文件目录里面</li>
+<li>把cuDNN的库复制到CUDA的库目录里面去</li>
+<li><a href="https://blog.csdn.net/qq_37296487/article/details/83028394">https://blog.csdn.net/qq_37296487/article/details/83028394</a></li>
+</ul></li>
+
+<li><p>安装GPU版的PyTorch和TensorFlow</p></li>
+
+<li><p>若出现段错误卸载重装</p></li>
+</ul>
+
+<blockquote>
+<p>卸载</p>
 </blockquote>
 
 <ul>
-<li>Nvidia官网找显卡驱动（与GPU对应的版本），安装</li>
-<li>安装CUDA toolkit（CUDA driver+CUDA），并行计算平台 （安装前先确认TensorFlow和PyTorch能支持的最高版本)</li>
-<li>安装cudnn：深度学习库 (ubuntu下随cuda自动安装)</li>
-<li>安装GPU版的PyTorch和TensorFlow</li>
+<li>卸载cuda
+
+<ul>
+<li><a href="http://www.voidcn.com/article/p-rgpnitfy-brw.html">ref</a></li>
+<li>在/usr/local/cuda-10.2/bin 执行sudo ./cuda-uninstaller</li>
+</ul></li>
+<li>卸载驱动
+
+<ul>
+<li><a href="https://www.cnblogs.com/tangmiao/p/10470663.html">https://www.cnblogs.com/tangmiao/p/10470663.html</a></li>
+<li><a href="http://www.voidcn.com/article/p-rgpnitfy-brw.html">http://www.voidcn.com/article/p-rgpnitfy-brw.html</a></li>
+</ul></li>
 </ul>
 
 <blockquote>
@@ -181,9 +252,9 @@
     
     <li><a href="/post/source/">Source</a></li>
     
-    <li><a href="/post/note/">Note</a></li>
-    
     <li><a href="/post/opensource/">Open Code</a></li>
+    
+    <li><a href="/post/git/">Git</a></li>
     
   </ul>
 </div>

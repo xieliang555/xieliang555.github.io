@@ -133,6 +133,8 @@
 <li>git pull origin master &ndash;allow-unrelated-histories 拒绝合并无关历史</li>
 <li>git push origin master</li>
 <li>当两端origin端和master端同时改变，会产生冲突</li>
+<li>git rm -r &ndash;cached .  : <a href="https://www.jianshu.com/p/337aeafc2f40">删除本地缓存(清空远程仓库)</a></li>
+<li>git checkout: <a href="https://www.jianshu.com/p/37f3a7e4a193">恢复</a></li>
 </ul>
 
 <blockquote>
@@ -141,7 +143,12 @@
 
 <ul>
 <li>git pull origin master (保持与origin仓库同步)</li>
-<li>git rm * -r (删除本地所有文件)</li>
+<li>删除
+
+<ul>
+<li>git rm * -r (删除本地文件)</li>
+<li>git rm -r &ndash;cached . (保留本地文件)</li>
+</ul></li>
 <li>git add . （提交）</li>
 <li>git commit -m “delete all”</li>
 <li>git push origin master</li>
@@ -164,7 +171,12 @@
 </blockquote>
 
 <ul>
-<li>尽量少传图片和数据集</li>
+<li>尽量少传图片和数据集，<a href="https://www.jianshu.com/p/55592e598ade">创建忽略提交</a> (对于已经存在的文件忽略无法生效，直接删除)</li>
+<li><a href="https://www.2cto.com/kf/201712/706056.html">gitignore需要添加完整路径</a>
+
+<ul>
+<li>如果在添加.gitignore之前已经通过add . 将不需要的文件添加到缓存空间中了，需要删除.git后重新初始化</li>
+</ul></li>
 </ul>
         </div>
 
@@ -189,9 +201,9 @@
     
     <li><a href="/post/source/">Source</a></li>
     
-    <li><a href="/post/note/">Note</a></li>
-    
     <li><a href="/post/opensource/">Open Code</a></li>
+    
+    <li><a href="/post/cuda/">Cuda</a></li>
     
   </ul>
 </div>

@@ -120,8 +120,69 @@
         <div class="post-content markdown-body">
           <p>command</p>
 
+<p>标题</p>
+
+<h1 id="title">title,</h1>
+
+<h2 id="subtitle">subtitle</h2>
+
+<h3 id="subsubtitle">subsubtitle</h3>
+
+<p>列表
+- item
+1. item</p>
+
+<p><em>斜体</em> 或 <em>斜体</em>
+<strong>粗体</strong> 或 <strong>粗体</strong>
+<strong><em>加粗斜体</em></strong> 或 <strong><em>加粗斜体</em></strong>
+<del>删除线</del></p>
+
+<p>Markdown 插入链接：
+<a href="链接网址" title="标题">链接文字</a>
+<url></p>
+
+<p>Markdown 插入图片：
+<img src="/path/to/img.jpg" alt="alt text" title="Title" /></p>
+
+<p>Markdown 插入代码块：
+    <code>python
+    #!/usr/bin/python3
+    print(&quot;Hello, World!&quot;);
+</code></p>
+
+<p>table
+|  Header 1  | Header 2   | Header 3   |
+|:&mdash;&mdash;&mdash;-:|:&mdash;&mdash;&mdash;&ndash;|&mdash;&mdash;&mdash;&ndash;:|
+| Division 1 | Division 2 | Division 3 |
+| Division 1 | Division 2 | Division 3 |
+| Division 1 | Division 2 | Division 3 |
+| Division 1 | Division 2 | Division 3 |</p>
+
+<p>上标: Lorem <sup>superscript</sup>
+下标: dolor <sub>subscript</sub></p>
+
+<p>定义标题和内容： <dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl></p>
+
+<p>Markdown 引用：
+&gt; 引用内容</p>
+
+<h2 id="markdown-分割线">Markdown 分割线：</h2>
+
+<p>Markdown 换行：
+<br></p>
+
+<p>Markdown 段首缩进：
+&ensp; or &#8194; 表示一个半角的空格
+&emsp; or &#8195;  表示一个全角的空格
+&emsp;&emsp; 两个全角的空格（用的比较多）
+&nbsp; or &#160; 不断行的空白格</p>
+
+<blockquote>
+<p>常见错误</p>
+</blockquote>
+
 <ul>
-<li>添加代码块:  ``` import tensorflow ```</li>
+<li>公式中下划线_ , 当表示下标且后面含{}符号时，如a_{\theta}，需要加\ 即a\_{\theta}</li>
 </ul>
         </div>
 
@@ -146,9 +207,9 @@
     
     <li><a href="/post/source/">Source</a></li>
     
-    <li><a href="/post/note/">Note</a></li>
-    
     <li><a href="/post/opensource/">Open Code</a></li>
+    
+    <li><a href="/post/cuda/">Cuda</a></li>
     
   </ul>
 </div>

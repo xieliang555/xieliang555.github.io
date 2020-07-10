@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://gohugo.io/post/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" />
-  <link rel="canonical" href="https://gohugo.io/post/%E5%8F%8C%E7%B3%BB%E7%BB%9F/" /><script type="application/ld+json">
+  <meta property="og:url" content="https://gohugo.io/post/%E7%B3%BB%E7%BB%9F/" />
+  <link rel="canonical" href="https://gohugo.io/post/%E7%B3%BB%E7%BB%9F/" /><script type="application/ld+json">
   {
       "@context" : "http://schema.org",
       "@type" : "BlogPosting",
@@ -17,8 +17,8 @@
            "@id": "https:\/\/gohugo.io\/"
       },
       "articleSection" : "post",
-      "name" : "双系统",
-      "headline" : "双系统",
+      "name" : "系统",
+      "headline" : "系统",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -29,12 +29,12 @@
       "copyrightYear" : "2019",
       "datePublished": "2019-12-25 13:39:50 \x2b0800 CST",
       "dateModified" : "2019-12-25 13:39:50 \x2b0800 CST",
-      "url" : "https:\/\/gohugo.io\/post\/%E5%8F%8C%E7%B3%BB%E7%BB%9F\/",
+      "url" : "https:\/\/gohugo.io\/post\/%E7%B3%BB%E7%BB%9F\/",
       "keywords" : [ "tag1","tag2", ]
   }
 </script>
-<title>双系统 - XieLiang</title>
-  <meta property="og:title" content="双系统 - XieLiang" />
+<title>系统 - XieLiang</title>
+  <meta property="og:title" content="系统 - XieLiang" />
   <meta property="og:type" content="article" />
   <meta name="description" content="" />
 
@@ -100,7 +100,7 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">双系统</h1>
+          <h1 class="post-title">系统</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
@@ -119,7 +119,25 @@
 
         <div class="post-content markdown-body">
           <blockquote>
-<p>安装</p>
+<p>安装ubuntu系统</p>
+</blockquote>
+
+<ul>
+<li>f2进入bios， f8选择boot启动盘</li>
+<li>制作启动盘：mbr+legacy bios 或 uefi+gpt（最好选择mbr）</li>
+<li>bios检测cms兼容性，mbr+legacy 选择legacy only， uefi+gpt选择uefi only</li>
+<li>分区：
+
+<ul>
+<li>mbr（硬盘格式）+legacy（系统启动方式）: / （主分区 ext4）+ swap（一定放最后，主分区）， 启动引导器：根目录所在分区</li>
+<li>uefi+gpt: efi（一定要放开头，主分区） + /(主分区) + swap（一定要放最后，主分区）， 启动引导器：efi所在分区</li>
+</ul></li>
+<li>安装时勾选安装ubuntu时下载更新，取消勾选为图形或无线硬件..(该选项会自动安装显卡驱动，无法自由选择后续cuda版本)</li>
+<li>安装若卡住：先试用ubuntu格式化该硬盘（ubuntu中的disks工具）然后再安装</li>
+</ul>
+
+<blockquote>
+<p>安装windows+ubuntu双系统</p>
 </blockquote>
 
 <ul>

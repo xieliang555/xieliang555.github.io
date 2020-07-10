@@ -132,9 +132,13 @@
 <li>删除目录： rm -rf dirname</li>
 <li>删除文件：rm filename</li>
 <li>清空目录: rm -rf *</li>
-<li>文件夹重命名：mv name1 name2</li>
-<li>复制粘贴： cp src dir</li>
-<li>剪切粘贴： mv src dir</li>
+<li>复制粘贴： cp file dir</li>
+<li>剪切粘贴： mv file dir</li>
+<li>复制目录： cp -r dir_src dir_tgt</li>
+<li>剪切目录： mv dir_src dir_tgt</li>
+<li>目录重命名：mv name1 name2</li>
+<li>显示第2层文件结构： tree -L 2</li>
+<li>以写的形式打开文件：open(&ldquo;path&rdquo;, &lsquo;w&rsquo;)</li>
 </ul></li>
 
 <li><p>查询</p>
@@ -142,11 +146,19 @@
 <ul>
 <li>查询内存：free -m （以M为单位显示）</li>
 <li>查询显存和GPU：nvidia-smi (主要看memory-usage：显存使用；GPU-Util： GPU利用率；Processes: 各进程占用显存情况)</li>
-<li>查询磁盘： df</li>
-<li>查询当前目录大小：du -ch</li>
-<li>查询指定目录大小：du -sh dirname</li>
+<li>查询当前目录文件夹大小：du -h(human-readable) -d1(深度1层) -c(count total) -s(summarize)</li>
+<li>查询当前目录文件大小: ls -lh</li>
+<li>查询磁盘： df -a(all) -h(human-readable) -i(inode) -T(type)</li>
+<li>查询当前目录大小：ls -lh</li>
 <li>动态查询GPU： nvidia-smi dmon</li>
 <li>动态查询CPU： <a href="https://www.cnblogs.com/zhoug2020/p/6336453.html">top</a></li>
+<li>top -p pid 可以查询pid信息</li>
+<li>查询在线用户：who/last</li>
+<li>查询指定端口使用情况： netstat -tunlp | grep 8080</li>
+<li>查找文件：find dir -name fine_name   如： find . -name &ldquo;log&rdquo;</li>
+<li>watch -n 0.1 nvidia-smi</li>
+<li>查询磁盘使用情况： baobab</li>
+<li>查询硬件温度：安装psensor</li>
 </ul></li>
 
 <li><p>文件传递（在本地命令行）</p>
@@ -183,13 +195,55 @@
 
 <ul>
 <li>查找文件夹（如anaconda下的bin文件夹）： whereis anaconda</li>
-<li>查找环境变量: export 或者 env 或者 echo $PATH</li>
-<li>写入环境变量到/etc/paths ： export PATH=/opt/local/bin:/opt/local/sbin:$PATH</li>
+<li>写入环境变量到/etc/paths ：如（追加） export PATH=/opt/local/bin:/opt/local/sbin:$PATH  又如： （添加）export CUDA_HOME=&ldquo;/usr/local/cuda&rdquo;</li>
+<li>查找环境变量:
+
+<ul>
+<li>查看单个环境变量echo $PATH  又如：echo $CUDA_HOME</li>
+<li>查看所有环境变量：export 或者 env</li>
+</ul></li>
+<li><a href="https://www.jianshu.com/p/888b75667281">参考</a></li>
+</ul></li>
+
+<li><p>ssh</p>
+
+<ul>
+<li>访问远程服务器的Jupyter Notebook：
+
+<ul>
+<li><a href="https://www.jianshu.com/p/4e8e5f516d84">Ref1</a></li>
+<li><a href="https://www.jianshu.com/p/87e28544a7b6?utm_campaign">Ref2</a></li>
+<li>ssh user@ip  连接远程服务器</li>
+<li>ssh user@ip -L local_port:localhost:remote_port 连接远程服务器，并从本地端口访问远程服务器端口（Tensorboard, Jupyter Notebook）</li>
+<li>ssh xieliang@10.13.22.251 -L 6006:localhost:remote_port 打开tensorboard</li>
+<li>ssh xieliang@10.13.22.251 -L 8008:localhost:remote_port 打开jupyter notebook</li>
+<li>remote_port可以先连接远程服务器，然后再通过命令行jupyter notebook（tensorboard）查看远程端口</li>
+<li>local_port需要使用可用的端口(可能被占用)，一般tensorboard默认6006， jupyter notebook默认8008</li>
+</ul></li>
+<li><a href="https://www.jianshu.com/p/fdbb3cf07ee0">macbook 连接ububtu</a>
+
+<ul>
+<li>启动服务： sudo /etc/init.d/ssh start</li>
+<li>macbook 连接win10</li>
+<li><a href="https://www.cnblogs.com/sunchong/p/10171870.html">ref</a></li>
+<li><a href="https://www.cnblogs.com/zhumengke/articles/11315880.html">ref</a></li>
+<li>ipconfig查询ipv4</li>
+<li>macbook通过ssh user@ip  其中user即系统登录用户名，ip是ipv4, 密码是系统登录密码</li>
+</ul></li>
+</ul></li>
+
+<li><p>tar</p>
+
+<ul>
+<li><a href="https://www.jb51.net/LINUXjishu/43356.html">Ref</a></li>
+<li>.tar 打包;  .tar.gz 压缩</li>
+<li>tar -c产生新包，-r增加文件， -f指定包的文件名， -t列出文件， -u更新文件， -x解开</li>
 </ul></li>
 
 <li><p>其他</p>
 
 <ul>
+<li>kill -s 9 pid 杀死进程</li>
 <li>which: 在环境变量指定的路径中查找可执行文件(bin)</li>
 <li>改变镜像源 系统设置-&gt;软件和跟新-&gt;下载自其他站点-&gt;选择最佳服务器</li>
 <li>whereis 查找可执行文件，查找范围比which广，还可以查命令的man手册和源代码文件的路径</li>
@@ -238,9 +292,9 @@
     
     <li><a href="/post/source/">Source</a></li>
     
-    <li><a href="/post/note/">Note</a></li>
-    
     <li><a href="/post/opensource/">Open Code</a></li>
+    
+    <li><a href="/post/cuda/">Cuda</a></li>
     
   </ul>
 </div>

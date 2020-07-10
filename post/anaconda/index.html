@@ -123,7 +123,7 @@
 </blockquote>
 
 <ul>
-<li>创建虚拟环境： conda create -n EnvName python=3.6</li>
+<li>创建虚拟环境： conda create -n EnvName python=3.6  (考虑是否需要将kernel装入jupyter notebook)</li>
 <li>删除虚拟环境：conda remove -n EnvName —-all</li>
 <li>重命名环境：
 
@@ -149,7 +149,7 @@
 
 <ul>
 <li>利用pip或者conda通过wheel安装</li>
-<li>从source（源代码）安装。如果是项目最好从source安装，1)可以看到源代码。2) 可以在项目基础上更方便修改（如spinningUp，cs294HW  避免使用命令行而直接使用sublime给定参数）</li>
+<li>从source（源代码）安装。实际是从安装包中安装，安装完后可以删除</li>
 </ul></li>
 <li>更新pip:          pip install —upgrade pip</li>
 <li>忽略已安装的库：      pip install —ignore-installed PkgName</li>
@@ -166,6 +166,7 @@
 <li>seaborn</li>
 </ul></li>
 <li>临时更改镜像源：pip install -i <url> Pkg</li>
+<li>conda install 出现 Solving environment: Done时，使用conda clean &ndash;all清除无用包。 可能是之前在conda下载包时被终止造成无向缓存。</li>
 </ul>
 
 <blockquote>
@@ -204,6 +205,79 @@ trusted-host=mirrors.aliyun.com
 <li>conda config —-set show_channel_urls</li>
 </ul></li>
 <li>查看conda源： conda config &ndash;show</li>
+<li>重启</li>
+</ul>
+
+<blockquote>
+<p>Jupyter Notebook</p>
+</blockquote>
+
+<ul>
+<li>添加Kernel
+
+<ul>
+<li>方法0 新建+导入：
+
+<ul>
+<li>conda &ndash;version 检测版本是否在4.1.0以上，不在则更新：conda update conda</li>
+<li>conda list 检测是否已安装库nb_conda_kernels ，没有则安装：conda install nb_conda_kernels</li>
+<li>新建环境，并将环境导入jupyter notebook: conda create -n env_name python=3.6 ipykernel</li>
+</ul></li>
+<li>方法1: <a href="https://blog.csdn.net/wj1066/article/details/72891667">https://blog.csdn.net/wj1066/article/details/72891667</a></li>
+<li>方法2 导入:
+
+<ul>
+<li>命令行进入该环境</li>
+<li>conda install -n EnvName ipykernel<br /></li>
+<li>python -m ipykernel install &ndash;user</li>
+<li>刷新即可，不需要重启jupyter</li>
+</ul></li>
+</ul></li>
+<li>查询kernel：
+
+<ul>
+<li>jupyter kernelspec list （最多显示两个可用kernel，删除一个后可显示其他的kernel）</li>
+<li>conda虚拟环境的kernel不会显示</li>
+</ul></li>
+
+<li><p>删除kernel ：</p>
+
+<ul>
+<li>jupyter kernelspec uninstall kernel-name</li>
+<li>若查询kernel未显示，直接删除conda环境也可以从jupyter notebook中删除kernel</li>
+</ul></li>
+
+<li><p>添加目录及代码补全,高亮显示等</p>
+
+<ul>
+<li>pip install jupyter_contrib_nbextensions</li>
+<li>jupyter contrib nbextension install &ndash;user</li>
+<li>重启</li>
+<li>选择 Nbextensions，在笔记本菜单栏中点击table of contents图标会出现content</li>
+<li>勾选 Table of Contents</li>
+<li>勾选 Hinterland</li>
+<li>勾选 Highlight selected word</li>
+<li>勾选 Autopep8,自动整理代码（需安装）</li>
+</ul></li>
+
+<li><p>显示md文件</p>
+
+<ul>
+<li>安装pip install <a href="https://github.com/aaren/notedown/tarball/master">https://github.com/aaren/notedown/tarball/master</a> (或者pip install notedown) 【会乱码】</li>
+<li>生成配置文件jupyter_notebook_config.py（如果没有的话）jupyter notebook &ndash;generate-config</li>
+<li>配置文件路径 ~/.jupyter/jupyter_notebook_config.py</li>
+<li>打开配置文件，在末尾添加c.NotebookApp.contents_manager_class = ‘notedown.NotedownContentsManager‘</li>
+<li>或者命令行：jupyter notebook &ndash;NotebookApp.contents_manager_class=&lsquo;notedown.NotedownContentsManager&rsquo;</li>
+</ul></li>
+
+<li><p>运行计时</p>
+
+<ul>
+<li>pip install jupyter_contrib_nbextensions<br /></li>
+<li>jupyter contrib nbextension install &ndash;user<br /></li>
+<li>jupyter nbextension enable execute_time/ExecuteTime
+<br /></li>
+</ul></li>
 </ul>
         </div>
 
@@ -228,9 +302,9 @@ trusted-host=mirrors.aliyun.com
     
     <li><a href="/post/source/">Source</a></li>
     
-    <li><a href="/post/note/">Note</a></li>
-    
     <li><a href="/post/opensource/">Open Code</a></li>
+    
+    <li><a href="/post/cuda/">Cuda</a></li>
     
   </ul>
 </div>
