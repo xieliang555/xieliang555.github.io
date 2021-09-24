@@ -263,6 +263,13 @@ keywords:
 <li><a href="https://zhuanlan.zhihu.com/p/43781381">多线程/进程</a></li>
 <li><a href="https://www.codelast.com/%E5%8E%9F%E5%88%9B-%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2softmax%E5%87%BD%E6%95%B0%E4%B8%8A%E6%BA%A2%E5%87%BAoverflow%E5%92%8C%E4%B8%8B%E6%BA%A2%E5%87%BAunderflow/">log_softmax</a></li>
 <li><a href="https://pytorch.org/docs/stable/nn.html#crossentropyloss">交叉熵损失函数</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/83283586?from_voters_page=true">NLLLoss, CrossEntropyLoss, KLDivLoss</a></li>
+<li><a href="https://www.zhihu.com/question/391900914">为什么不用KLDivLoss作为损失函数</a>
+
+<ul>
+<li>信息熵是常数不可优化</li>
+<li>训练样本分布和真实分布有偏差，klDivLoss会映入误差</li>
+</ul></li>
 <li><a href="https://zhuanlan.zhihu.com/p/56961620">mAP</a></li>
 <li><a href="https://colab.research.google.com/drive/1FbuTOevZTUO3IEVJLwSfwCdGnrBf3Qwv">神经网络可视化</a> + 特征图可视化 + 反卷积重建 lime只能用于测试一张图片，无法用于batch</li>
 <li><a href="https://zhuanlan.zhihu.com/p/31426458">faster rcnn</a></li>
@@ -284,6 +291,7 @@ keywords:
 <li>resnet可以理解为不同深度网络的bagging，当不需要那么深的网络时后面的网络可以直接通过identity layer，identity layer 比 nonlinear layer好学
 -<a href="https://github.com/b-etienne/Seq2seq-PyTorch/blob/master/models/modules/decoders.py">Luong and Bahdanau attention implementation</a></li>
 </ul></li>
+<li><a href="https://github.com/sooftware/KoSpeech/blob/master/kospeech/models/seq2seq/attention.py">location-aware attention</a></li>
 </ul>
 
 <blockquote>
@@ -328,10 +336,26 @@ keywords:
 
 <ul>
 <li><a href="https://www.jb51.net/article/176949.htm">re.match, re.search</a></li>
+<li>pattern:
+
+<ul>
+<li><a href="https://docs.python.org/3/howto/regex.html">所有</a>： . ^ $ * + ? { } [ ] \ | ( )</li>
+<li><a href="https://www.jb51.net/article/165957.htm">匹配所有连续出现的数字</a>： &ldquo;([0-9]+)&rdquo;</li>
+<li><a href="https://www.jb51.net/article/165957.htm">匹配连续两次出现的字符a</a>: &ldquo;(a{2})&rdquo;</li>
+</ul></li>
 </ul></li>
 <li><a href="https://stackoverflow.com/questions/29244286/how-to-flatten-a-2d-list-to-1d-without-using-numpy">python 二维list转一维</a></li>
 <li><a href="https://stackoverflow.com/questions/1059559/split-strings-into-words-with-multiple-word-boundary-delimiters">python string split多个分割符</a></li>
 <li><a href="https://web.archive.org/web/20171215025927/http://progfruits.blogspot.com/2014/02/word-error-rate-wer-and-word.html">计算wer的ins, del, sub</a></li>
+<li>python 常用的函数/类： itertools.groupby, collections.Counter， str.replace(), re</li>
+<li>batch norm 和layer norm实现:
+
+<ul>
+<li><a href="https://pytorch.org/docs/stable/nn.html#batchnorm2d">https://pytorch.org/docs/stable/nn.html#batchnorm2d</a></li>
+<li><a href="https://github.com/xieliang555/test/blob/master/normalize.ipynb">https://github.com/xieliang555/test/blob/master/normalize.ipynb</a></li>
+</ul></li>
+<li><a href="https://towardsdatascience.com/checklist-for-debugging-neural-networks-d8b2a9434f21">分类问题训练的初始loss估计</a></li>
+<li><a href="https://blog.csdn.net/jialibang/article/details/83788690">显存估计</a></li>
 </ul>
 
 <blockquote>

@@ -110,17 +110,6 @@
   </url>
   
   <url>
-    <loc>https://gohugo.io/post/linux/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/categories/macos/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://gohugo.io/categories/ubuntu/</loc>
     <lastmod>2019-12-25T13:39:50+08:00</lastmod>
     <priority>0</priority>
@@ -134,18 +123,6 @@
   
   <url>
     <loc>https://gohugo.io/categories/%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/categories/%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
-    <lastmod>2019-12-25T13:39:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2019-12-25T13:39:50+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -178,11 +155,6 @@
   
   <url>
     <loc>https://gohugo.io/post/pytorch/</loc>
-    <lastmod>2019-12-22T13:39:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gohugo.io/post/sublime/</loc>
     <lastmod>2019-12-22T13:39:50+08:00</lastmod>
   </url>
   
