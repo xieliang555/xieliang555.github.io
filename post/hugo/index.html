@@ -148,21 +148,30 @@
 <li>下载主题： themes.gohugo.io，放入themes目录中，可通过更改文件夹名称改变theme名称</li>
 <li>在config.toml中可以配置默认theme主题，模版见参考url</li>
 <li>本地打开blog：hugo server -D (可通过 &ndash;theme=themeName指定主题)</li>
-<li>hugo （可通过&ndash;theme=themeName），生成public目录（存放着html文件，用于push到远程仓库）</li>
 <li>进入public目录，创建本地仓库（git init）</li>
 <li>创建github远程仓库：必须以xieliang555.github.io命名</li>
-<li>本地仓库关联到远程仓库(git remote add origin)，并将本地的public目录push到远程仓库</li>
+<li>本地仓库关联到远程仓库(git remote add origin)</li>
 <li>互联网访问xieliang555.github.io</li>
-<li>注意：md文件头中的配置信息中draft为true时，执行hugo后不会输出到public目录中</li>
 </ul>
 
 <blockquote>
-<p>写博客</p>
+<p>新建、发布博客</p>
 </blockquote>
 
 <ul>
-<li>新建文章：hugo new post/blog.md（会在content目录下生成该文件）</li>
-<li>写文章：进入blog.md目录，open blog.md</li>
+<li>新建：进入项目根目录，执行hugo new post/blog.md（会在content目录下生成该文件）</li>
+<li>编辑：进入blog.md目录，open blog.md</li>
+<li>编译：进入项目根目录，执行hugo编译(可通过&ndash;theme=themeName), 生成public目录（存放着html文件，用于push到远程仓库）</li>
+<li>发布：进入public目录，并将本地的public目录push到远程仓库(git status查看状态)</li>
+</ul>
+
+<blockquote>
+<p>注意</p>
+</blockquote>
+
+<ul>
+<li><a href="https://stackoverflow.com/questions/30745981/opening-pdf-in-a-browser-with-github-pages">添加并显示pdf文件</a></li>
+<li>md文件头中的配置信息中draft为true时，执行hugo后不会输出到public目录中(本地会显示该博客，但远程仓库不会)</li>
 </ul>
 
 <blockquote>
